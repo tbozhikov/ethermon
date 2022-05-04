@@ -1,0 +1,15 @@
+{
+  "name": "ethermon",
+  "version": "1.0.0",
+  "description": "A ruling system that monitors and watches all Ethereum transactions and store them in a DB, in case they pass through the configured filter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "node ./src/worker/index.js"
+  },
+  "author": "Teodor Bozhikov",
+  "license": "ISC",
+  "dependencies": {
+    "web3": "^1.7.3"
+  }
+}
