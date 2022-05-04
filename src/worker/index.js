@@ -21,8 +21,8 @@ class TransactionChecker {
         // this.account = account.toLowerCase();
     }
 
-    subscribe(topic) {
-        this.subscription = this.web3ws.eth.subscribe(topic, (err, res) => {
+    subscribe(topic, options) {
+        this.subscription = this.web3ws.eth.subscribe(topic, options, (err, res) => {
             if (err) {
                 console.log(err);
             }
@@ -42,11 +42,11 @@ class TransactionChecker {
                         if (tx.from.toLowerCase() === BINANCE_ADDR || tx.to.toLowerCase() === BINANCE_ADDR) {
                             console.log(`[BINANCE] Transaction: ${tx.from} -> ${tx.to}`);
                         } else {
-                            console.log( `Transaction: ${tx.from} -> ${tx.to}`);
+                            console.log(`Transaction: ${tx.from} -> ${tx.to}`);
                         }
                     }
                     if (txReceipt !== null) {
-                        console.log( `Transaction receipt: ${JSON.stringify(txReceipt, null, 2)}`);
+                        console.log(`Transaction receipt: ${JSON.stringify(txReceipt, null, 2)}`);
                     }
                 } catch (err) {
                     console.log(err);
@@ -54,8 +54,44 @@ class TransactionChecker {
             }, 30000)
         })
     }
+
+    watchBlocks() {
+        console.log("Watching blocks with transactions ...");
+
+        this.subscription = this.web3ws.eth.subscribe("newBlockHeaders", (err, res) => {
+            if (err) {
+                console.log(err);
+            }
+
+            console.log(res)
+        })
+
+        this.subscription.on("data", async (blockHeader) => {
+            console.log(`New block: ${JSON.stringify(blockHeader, null, 2)}`)
+            
+            try {
+                let block = await this.web3.eth.getBlock(blockHeader.hash, true);
+                if (block !== null) {
+                    let transactions = block.transactions;
+                    console.log(`Found ${transactions.length} new transactions.`)
+                    console.log(`${JSON.stringify(transactions, null, 2)}`)
+
+                    for (let tx of transactions) {
+                        if (tx.from.toLowerCase() === BINANCE_ADDR || tx.to.toLowerCase() === BINANCE_ADDR) {
+                            console.log(`[BINANCE] Transaction: ${tx.from} -> ${tx.to}`);
+                        } else {
+                            console.log(`Transaction: ${tx.from} -> ${tx.to}`);
+                        }
+                    }
+                }
+            } catch (err) {
+                console.log(err);
+            }
+        })
+    }
 }
 
 let txChecker = new TransactionChecker(PROJECT_ID);
-txChecker.subscribe("pendingTransactions");
-txChecker.watchTransactions();
+// txChecker.subscribe("newBlockHeaders");
+// txChecker.watchTransactions();
+txChecker.watchBlocks();
