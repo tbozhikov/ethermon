@@ -80,7 +80,7 @@ class TransactionMonitor {
                 return shouldFilterCurrent;
             });
 
-            logger.info(`Adding ${filtered.length} transactions.`);
+            logger.info(`Adding ${filtered.length} transactions in DB.`);
 
             filtered.forEach(tx => this.transactionRepository.create({ ...tx, configurationId: dynamicConfig.activeConfigRecord.id }));
         });

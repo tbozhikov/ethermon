@@ -72,6 +72,11 @@ The supported filter properties are as follows:
 
 > When multiple filters are provided, logical OR is applied, so if any filter applies successfully, the transaction gets stored.   
 
+### Application configuration
+
+For both **worker** and **API Server** nodes, app configs gan be tweaked in:
+- For the worker: ./worker/transaction-monitor.js
+- For the API Server ./api/api-staging.json
 
 ## Improvement areas
 - Use MoM solution (RabbitMQ, Kafka etc.) for change detection of configuration (instead of current `scheduleChangeDetection` mechanism using timer)
