@@ -1,6 +1,7 @@
 const BaseProvider = require('./base-provider');
 const Web3 = require('web3');
-
+const LoggerService = require('../../logging/logger-service');
+const logger = LoggerService.getLogger(__filename.split("/").pop());
 class BaseWeb3Provider extends BaseProvider {
     projectId;
     wsUrl;
@@ -13,16 +14,16 @@ class BaseWeb3Provider extends BaseProvider {
     }
 
     watchBlocks(callback) {
-        console.log("Watching blocks with transactions ...");
-
+        logger.info("Watching blocks with transactions ...");
+        
         this.newBlockSubscription = this.web3ws.eth.subscribe("newBlockHeaders", (err, res) => {
             if (err) {
-                console.log(err);
+                logger.error(err);
             }
         })
 
         this.newBlockSubscription.on("data", async (blockHeader) => {
-            console.log(`Added new block with hash: ${blockHeader.hash}`)
+            logger.info(`Added new block with hash: ${blockHeader.hash}`);
 
             try {
                 let block = await this.web3.eth.getBlock(blockHeader.hash, true);
@@ -30,7 +31,7 @@ class BaseWeb3Provider extends BaseProvider {
                     callback(block);
                 }
             } catch (err) {
-                console.log(err);
+                logger.error(err);
             }
         })
     }

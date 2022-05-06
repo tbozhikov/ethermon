@@ -4,18 +4,19 @@
   "description": "A ruling system that monitors and watches all Ethereum transactions and store them in a DB, in case they pass through the configured filter",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start-dev": "node ./src/worker/index.js && node ./src/api/index.js",
-    "start-api": "NODE_CONFIG_DIR=./src/config NODE_ENV=staging node ./src/api/index.js",
-    "start-worker": "NODE_CONFIG_DIR=./src/config NODE_ENV=staging node ./src/worker/index.js",
-    "npm-rebuild": "npm rebuild"
+    "start-api": "NODE_CONFIG_DIR=./src/config NODE_ENV=api-staging node ./src/api/index.js",
+    "start-worker": "NODE_CONFIG_DIR=./src/config NODE_ENV=worker-staging node ./src/worker/index.js",
+    "npm-rebuild": "npm rebuild",
+    "start-all": "npm run start-worker && npm run start-api"
   },
   "author": "Teodor Bozhikov",
   "license": "ISC",
   "dependencies": {
+    "chalk": "4.1.2",
     "express": "^4.18.1",
     "sequelize": "^6.19.0",
-    "web3": "^1.7.3"
+    "web3": "^1.7.3",
+    "winston": "^3.7.2"
   },
   "devDependencies": {
     "config": "^3.3.7",

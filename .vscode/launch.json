@@ -15,7 +15,7 @@
             "program": "${workspaceFolder}/src/worker/index.js",
             "env": {
                 "NODE_CONFIG_DIR": "./src/config",
-                "NODE_ENV": "staging"
+                "NODE_ENV": "worker-staging"
             }
         },
         {
@@ -29,7 +29,7 @@
             "program": "${workspaceFolder}/src/api/index.js",
             "env": {
                 "NODE_CONFIG_DIR": "./src/config",
-                "NODE_ENV": "staging"
+                "NODE_ENV": "api-staging"
             }
         }
     ]

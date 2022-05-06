@@ -1,7 +1,9 @@
 const InfuraProvider = require('./ethereum-provider/infura-provider');
 const TransactionRepository = require('../data/repository/transaction-repository');
+const LoggerService = require('../logging/logger-service');
 const dynamicConfig = require('../config/dynamic-config');
 
+const logger = LoggerService.getLogger(__filename.split("/").pop());
 class TransactionMonitor {
     transactionFiltersMap;
     transactionRepository;
@@ -9,12 +11,12 @@ class TransactionMonitor {
     constructor() {
         this.provider = new InfuraProvider();
         this.transactionRepository = new TransactionRepository();
+        this.transactionFiltersMap = new Map();
         dynamicConfig.configChanged((newConfig) => { this.onConfigChanged(newConfig); });
     }
 
     onConfigChanged(newConfig) {
-        console.log(`[Config change] New transaction filters: ${JSON.stringify(newConfig.transactionFilters, null, 2)}`);
-
+        logger.info(`Handling config change. New transaction filters: ${JSON.stringify(newConfig.transactionFilters, null, 2)}`)
         /**
          * build a map of <key: string, value: Array<any>>, where:
          * key: is the property name
@@ -31,7 +33,7 @@ class TransactionMonitor {
                 }
             })
         } else {
-            console.log("[warning] Config is empty, do not expect any tracking in DB");
+            logger.warn("Config is empty, do not expect any tracking in DB")
         }
 
         this.transactionFiltersMap = filtersMap;
@@ -40,7 +42,7 @@ class TransactionMonitor {
     watchBlocks() {
         this.provider.watchBlocks((block) => {
             let transactions = block.transactions;
-            console.log(`Found ${transactions.length} new transactions.`)
+            logger.info(`Found ${transactions.length} new transactions.`)
 
             const filtered = transactions.filter((tx) => {
                 let shouldFilterCurrent = false;
@@ -78,7 +80,7 @@ class TransactionMonitor {
                 return shouldFilterCurrent;
             });
 
-            console.log(`Adding ${filtered.length} transactions.`)
+            logger.info(`Adding ${filtered.length} transactions.`);
 
             filtered.forEach(tx => this.transactionRepository.create({ ...tx, configurationId: dynamicConfig.activeConfigRecord.id }));
         });

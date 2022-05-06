@@ -1,0 +1,1412 @@
+22-05-06 21:44:01|info|[TransactionMonitor][Config change] New transaction filters: [
+  {
+    "field": "to",
+    "value": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72",
+    "criteria": "equals",
+    "matchCase": false
+  },
+  {
+    "field": "to",
+    "value": "0x7875c0Dd92be2d313c597136ABF0148682D39A53",
+    "criteria": "equals",
+    "matchCase": true
+  },
+  {
+    "field": "gas",
+    "value": "850000",
+    "criteria": "above"
+  }
+]
+22-05-06 21:44:05|info|[TransactionMonitor]Found 302 new transactions.
+22-05-06 21:44:05|info|[TransactionMonitor]Adding 2 transactions.
+22-05-06 21:44:34|info|[TransactionMonitor]Found 262 new transactions.
+22-05-06 21:44:34|info|[TransactionMonitor]Adding 2 transactions.
+22-05-06 21:46:04|info|[[1mTransactionMonitor[22m]Found 92 new transactions.
+22-05-06 21:46:05|info|[[1mTransactionMonitor[22m][Config change] New transaction filters: [
+  {
+    "field": "to",
+    "value": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72",
+    "criteria": "equals",
+    "matchCase": false
+  },
+  {
+    "field": "to",
+    "value": "0x7875c0Dd92be2d313c597136ABF0148682D39A53",
+    "criteria": "equals",
+    "matchCase": true
+  },
+  {
+    "field": "gas",
+    "value": "850000",
+    "criteria": "above"
+  }
+]
+22-05-06 21:46:07|info|[[1mTransactionMonitor[22m]Found 97 new transactions.
+22-05-06 21:46:07|info|[[1mTransactionMonitor[22m]Adding 1 transactions.
+22-05-06 21:49:25|info|[1mTransactionMonitor[22m|[Config change] New transaction filters: [
+  {
+    "field": "to",
+    "value": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72",
+    "criteria": "equals",
+    "matchCase": false
+  },
+  {
+    "field": "to",
+    "value": "0x7875c0Dd92be2d313c597136ABF0148682D39A53",
+    "criteria": "equals",
+    "matchCase": true
+  },
+  {
+    "field": "gas",
+    "value": "850000",
+    "criteria": "above"
+  }
+]
+22-05-06 21:49:30|info|[1mTransactionMonitor[22m|Found 207 new transactions.
+22-05-06 21:49:30|info|[1mTransactionMonitor[22m|Adding 7 transactions.
+22-05-06 21:49:41|info|[1mTransactionMonitor[22m|Found 182 new transactions.
+22-05-06 21:49:41|info|[1mTransactionMonitor[22m|Adding 4 transactions.
+22-05-06 21:49:56|info|[1mTransactionMonitor[22m|Found 147 new transactions.
+22-05-06 21:49:56|info|[1mTransactionMonitor[22m|Adding 0 transactions.
+22-05-06 21:50:04|info|[1mTransactionMonitor[22m|Found 80 new transactions.
+22-05-06 21:50:04|info|[1mTransactionMonitor[22m|Adding 1 transactions.
+22-05-06 21:50:07|info|[1mTransactionMonitor[22m|Found 0 new transactions.
+22-05-06 21:50:07|info|[1mTransactionMonitor[22m|Adding 0 transactions.
+22-05-06 21:50:11|info|[1mTransactionMonitor[22m|Found 85 new transactions.
+22-05-06 21:50:11|info|[1mTransactionMonitor[22m|Adding 0 transactions.
+22-05-06 21:50:18|info|[1mTransactionMonitor[22m|Found 303 new transactions.
+22-05-06 21:50:18|info|[1mTransactionMonitor[22m|Adding 13 transactions.
+22-05-06 21:50:29|info|[1mTransactionMonitor[22m|Found 201 new transactions.
+22-05-06 21:50:29|info|[1mTransactionMonitor[22m|Adding 2 transactions.
+22-05-06 21:50:51|info|[1mTransactionMonitor[22m|Found 260 new transactions.
+22-05-06 21:50:51|info|[1mTransactionMonitor[22m|Adding 2 transactions.
+22-05-06 21:51:00|info|[1mTransactionMonitor[22m|Found 138 new transactions.
+22-05-06 21:51:00|info|[1mTransactionMonitor[22m|Adding 2 transactions.
+22-05-06 21:51:37|info|[1mTransactionMonitor[22m|Found 332 new transactions.
+22-05-06 21:51:37|info|[1mTransactionMonitor[22m|Adding 3 transactions.
+22-05-06 21:51:39|info|[1mTransactionMonitor[22m|Found 9 new transactions.
+22-05-06 21:51:39|info|[1mTransactionMonitor[22m|Adding 0 transactions.
+22-05-06 21:51:50|info|[1mTransactionMonitor[22m|Found 142 new transactions.
+22-05-06 21:51:50|info|[1mTransactionMonitor[22m|Adding 5 transactions.
+22-05-06 21:51:54|info|[1mTransactionMonitor[22m|Found 23 new transactions.
+22-05-06 21:51:54|info|[1mTransactionMonitor[22m|Adding 1 transactions.
+22-05-06 21:52:12|info|[1mTransactionMonitor[22m|Found 211 new transactions.
+22-05-06 21:52:12|info|[1mTransactionMonitor[22m|Adding 3 transactions.
+22-05-06 21:52:46|info|[1mTransactionMonitor[22m|Found 90 new transactions.
+22-05-06 21:52:46|info|[1mTransactionMonitor[22m|Adding 3 transactions.
+22-05-06 21:52:47|info|[1mTransactionMonitor[22m|Found 293 new transactions.
+22-05-06 21:52:47|info|[1mTransactionMonitor[22m|Adding 6 transactions.
+22-05-06 21:52:48|info|[1mTransactionMonitor[22m|Found 17 new transactions.
+22-05-06 21:52:48|info|[1mTransactionMonitor[22m|Adding 2 transactions.
+22-05-06 21:52:52|info|[1mTransactionMonitor[22m|Found 162 new transactions.
+22-05-06 21:52:52|info|[1mTransactionMonitor[22m|Adding 3 transactions.
+22-05-06 21:54:36|info|TransactionMonitor|Found 238 new transactions.
+22-05-06 21:54:36|info|TransactionMonitor|Handling config change. New transaction filters: undefined
+22-05-06 21:54:36|warn|TransactionMonitor|Config is empty, do not expect any tracking in DB
+22-05-06 21:54:38|info|TransactionMonitor|Found 121 new transactions.
+22-05-06 21:54:38|info|TransactionMonitor|Adding 0 transactions.
+22-05-06 21:54:40|info|TransactionMonitor|Found 43 new transactions.
+22-05-06 21:54:40|info|TransactionMonitor|Adding 0 transactions.
+22-05-06 21:54:46|info|TransactionMonitor|Found 46 new transactions.
+22-05-06 21:54:46|info|TransactionMonitor|Adding 0 transactions.
+22-05-06 21:54:50|info|TransactionMonitor|Found 167 new transactions.
+22-05-06 21:54:50|info|TransactionMonitor|Adding 0 transactions.
+22-05-06 21:55:01|info|TransactionMonitor|Found 89 new transactions.
+22-05-06 21:55:01|info|TransactionMonitor|Adding 0 transactions.
+22-05-06 21:55:30|info|TransactionMonitor|Found 343 new transactions.
+22-05-06 21:55:30|info|TransactionMonitor|Adding 0 transactions.
+22-05-06 21:55:52|info|TransactionMonitor|Found 235 new transactions.
+22-05-06 21:55:52|info|TransactionMonitor|Adding 0 transactions.
+22-05-06 21:55:53|info|TransactionMonitor|Found 147 new transactions.
+22-05-06 21:55:53|info|TransactionMonitor|Adding 0 transactions.
+22-05-06 21:56:42|info|TransactionMonitor|Found 395 new transactions.
+22-05-06 21:56:42|info|TransactionMonitor|Adding 0 transactions.
+22-05-06 21:57:06|info|TransactionMonitor|Found 74 new transactions.
+22-05-06 21:57:06|info|TransactionMonitor|Adding 0 transactions.
+22-05-06 21:57:06|info|TransactionMonitor|Found 217 new transactions.
+22-05-06 21:57:06|info|TransactionMonitor|Adding 0 transactions.
+22-05-06 21:57:27|info|TransactionMonitor|Handling config change. New transaction filters: undefined
+22-05-06 21:57:27|warn|TransactionMonitor|Config is empty, do not expect any tracking in DB
+22-05-06 21:57:36|info|TransactionMonitor|Found 24 new transactions.
+22-05-06 21:57:36|info|TransactionMonitor|Adding 0 transactions.
+22-05-06 21:57:37|info|TransactionMonitor|Found 204 new transactions.
+22-05-06 21:57:37|info|TransactionMonitor|Adding 0 transactions.
+22-05-06 21:58:00|info|TransactionMonitor|Found 17 new transactions.
+22-05-06 21:58:00|info|TransactionMonitor|Adding 0 transactions.
+22-05-06 21:58:01|info|TransactionMonitor|Found 249 new transactions.
+22-05-06 21:58:01|info|TransactionMonitor|Adding 0 transactions.
+22-05-06 21:58:12|info|TransactionMonitor|Found 208 new transactions.
+22-05-06 21:58:12|info|TransactionMonitor|Adding 0 transactions.
+22-05-06 21:58:57|info|TransactionMonitor|Found 359 new transactions.
+22-05-06 21:58:57|info|TransactionMonitor|Adding 0 transactions.
+22-05-06 22:00:09|info|BaseWeb3Provider|Watching blocks with transactions ...
+22-05-06 22:00:19|info|TransactionMonitor|Handling config change. New transaction filters: undefined
+22-05-06 22:00:19|warn|TransactionMonitor|Config is empty, do not expect any tracking in DB
+22-05-06 22:00:19|info|BaseWeb3Provider|Added new block with hash: 0xd97f455befb85ae793665a443f36945a2870ed7a8009cfd3c5e4f4adce17e95c
+22-05-06 22:00:21|info|TransactionMonitor|Found 385 new transactions.
+22-05-06 22:00:21|info|TransactionMonitor|Adding 0 transactions.
+22-05-06 22:00:31|info|BaseWeb3Provider|Added new block with hash: 0x889922320e24b495b8059356e8eb090c45b463a84cd2afeba585e648cb2fac7e
+22-05-06 22:00:33|info|TransactionMonitor|Found 329 new transactions.
+22-05-06 22:00:33|info|TransactionMonitor|Adding 0 transactions.
+22-05-06 22:00:36|info|BaseWeb3Provider|Added new block with hash: 0x24b8446eab1d9c565e8d6e80c8b85002eac645611d7f9c065b299a388d3e498a
+22-05-06 22:00:37|info|TransactionMonitor|Found 181 new transactions.
+22-05-06 22:00:37|info|TransactionMonitor|Adding 0 transactions.
+22-05-06 22:01:27|info|BaseWeb3Provider|Added new block with hash: 0x1c4dace254621006f938fe57c5d1938ea4033fba0a57fd99377924e46b91965e
+22-05-06 22:01:28|info|TransactionMonitor|Found 294 new transactions.
+22-05-06 22:01:28|info|TransactionMonitor|Adding 0 transactions.
+22-05-06 22:01:30|info|BaseWeb3Provider|Added new block with hash: 0xef301f86aabbc6c2e83d027068b738b2db20c6b4b9404d03f7e7302484c76dc2
+22-05-06 22:01:31|info|TransactionMonitor|Found 371 new transactions.
+22-05-06 22:01:31|info|TransactionMonitor|Adding 0 transactions.
+22-05-06 22:02:01|info|BaseWeb3Provider|Added new block with hash: 0x57257fa8bc14599e875071549446d3948f5c3eb5564ff4e41cbc4b3a384d09a0
+22-05-06 22:02:01|info|BaseWeb3Provider|Added new block with hash: 0xab9a7cd81586e2c737f039007f0a0023796e12d33cedf7a2de34b35a0096b166
+22-05-06 22:02:02|info|TransactionMonitor|Found 284 new transactions.
+22-05-06 22:02:02|info|TransactionMonitor|Adding 0 transactions.
+22-05-06 22:02:02|info|TransactionMonitor|Found 35 new transactions.
+22-05-06 22:02:02|info|TransactionMonitor|Adding 0 transactions.
+22-05-06 22:02:04|info|BaseWeb3Provider|Added new block with hash: 0x7170122b9eaca889d7bc3d2388da8f2da3a552f389654ede487145084c21ae3c
+22-05-06 22:02:05|info|TransactionMonitor|Found 51 new transactions.
+22-05-06 22:02:05|info|TransactionMonitor|Adding 0 transactions.
+22-05-06 22:02:19|info|BaseWeb3Provider|Added new block with hash: 0x9dcad9ee31ebddaee14a93c0d305dac79601b0ebd53de876510f2bf8540cc68f
+22-05-06 22:02:20|info|TransactionMonitor|Found 315 new transactions.
+22-05-06 22:02:20|info|TransactionMonitor|Adding 0 transactions.
+22-05-06 22:02:40|info|BaseWeb3Provider|Watching blocks with transactions ...
+22-05-06 22:02:40|info|index.js|Worker is running
+22-05-06 22:02:40|info|db/init|Initializing DB
+22-05-06 22:02:50|info|TransactionMonitor|Handling config change. New transaction filters: undefined
+22-05-06 22:02:50|warn|TransactionMonitor|Config is empty, do not expect any tracking in DB
+22-05-06 22:02:58|info|BaseWeb3Provider|Added new block with hash: 0x6e0b4233ed9ac9e3cb46089e28dc782401c990de5a1794c26a6d60d790d4ae37
+22-05-06 22:02:59|info|TransactionMonitor|Found 279 new transactions.
+22-05-06 22:02:59|info|TransactionMonitor|Adding 0 transactions.
+22-05-06 22:03:31|info|BaseWeb3Provider|Watching blocks with transactions ...
+22-05-06 22:03:31|info|/Users/tbozhikov/Documents/work/NX/src/db/init.js|Initializing DB
+22-05-06 22:03:31|info|index.js|Worker is running
+22-05-06 22:03:35|info|BaseWeb3Provider|Added new block with hash: 0x33c040586317bd31209808adf3d6087a7e6c2b111e052f15d43d8cea3591c28d
+22-05-06 22:03:36|info|TransactionMonitor|Found 34 new transactions.
+22-05-06 22:03:36|info|TransactionMonitor|Adding 0 transactions.
+22-05-06 22:03:41|info|TransactionMonitor|Handling config change. New transaction filters: undefined
+22-05-06 22:03:41|warn|TransactionMonitor|Config is empty, do not expect any tracking in DB
+22-05-06 22:03:49|info|BaseWeb3Provider|Added new block with hash: 0x2a0f8bb9792342f5bfcd7269275601452e268cce368478e35cb05bb03851e346
+22-05-06 22:03:50|info|TransactionMonitor|Found 214 new transactions.
+22-05-06 22:03:50|info|TransactionMonitor|Adding 0 transactions.
+22-05-06 22:03:52|info|BaseWeb3Provider|Added new block with hash: 0xb73ba14e11c020e872f9ab683efc1d9c05cb8ef1962927d2c4f54c7f2d3ec964
+22-05-06 22:03:52|info|TransactionMonitor|Found 88 new transactions.
+22-05-06 22:03:52|info|TransactionMonitor|Adding 0 transactions.
+22-05-06 22:04:04|info|BaseWeb3Provider|Added new block with hash: 0x74094506ed63a8480dac7f61d7e1d8ed14c8b780bf9c1ca157fe1b7e61e9da25
+22-05-06 22:04:04|info|TransactionMonitor|Found 121 new transactions.
+22-05-06 22:04:04|info|TransactionMonitor|Adding 0 transactions.
+22-05-06 22:05:41|info|BaseWeb3Provider|Watching blocks with transactions ...
+22-05-06 22:05:41|info|/init.js|Initializing DB
+22-05-06 22:05:41|info|index.js|Worker is running
+22-05-06 22:09:34|info|base-web3-provider.js|Watching blocks with transactions ...
+22-05-06 22:09:34|info|init.js|Initializing DB
+22-05-06 22:09:34|info|index.js|Worker is running
+22-05-06 22:09:44|info|transaction-monitor.js|Handling config change. New transaction filters: undefined
+22-05-06 22:09:44|warn|transaction-monitor.js|Config is empty, do not expect any tracking in DB
+22-05-06 22:10:01|info|base-web3-provider.js|Added new block with hash: 0x2eb0328ce0d617785772aac6cbc957faf8c0e3b4155bacb39c2153b9a8fe137e
+22-05-06 22:10:23|info|base-web3-provider.js: Watching blocks with transactions ...
+22-05-06 22:10:23|info|init.js: Initializing DB
+22-05-06 22:10:23|info|index.js: Worker is running
+22-05-06 22:10:33|info|transaction-monitor.js: Handling config change. New transaction filters: undefined
+22-05-06 22:10:33|warn|transaction-monitor.js: Config is empty, do not expect any tracking in DB
+22-05-06 22:10:48|info|base-web3-provider.js: Added new block with hash: 0x792913550a1e49d56cee489ade6505e14c002b7b4e50c66c4f0a242146d0e52f
+22-05-06 22:10:52|info|transaction-monitor.js: Found 319 new transactions.
+22-05-06 22:10:52|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:10:58|info|base-web3-provider.js: Added new block with hash: 0x77b00cce45562d06d25fbf1e625f25d67494011867ca9091b8715a2d663df3e1
+22-05-06 22:10:59|info|transaction-monitor.js: Found 216 new transactions.
+22-05-06 22:10:59|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:11:30|info|base-web3-provider.js: Added new block with hash: 0x972738c3ab7a6cc23c438da0fd1017b31fa553669d827ed5fdcf701f557eae9a
+22-05-06 22:11:32|info|transaction-monitor.js: Found 379 new transactions.
+22-05-06 22:11:32|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:11:42|info|base-web3-provider.js: Added new block with hash: 0x913a1ee4ca046cdfab3eb82d468b889f65fee891969f5724ed34c1a04ef739a4
+22-05-06 22:11:43|info|transaction-monitor.js: Found 196 new transactions.
+22-05-06 22:11:43|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:12:18|info|base-web3-provider.js: Added new block with hash: 0x2955d5ad567f29c93896b2064fd6986420b5a8d0f954ce95b746c0f73835ce1f
+22-05-06 22:12:19|info|transaction-monitor.js: Found 339 new transactions.
+22-05-06 22:12:19|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:12:25|info|base-web3-provider.js: Added new block with hash: 0x0151fb591a74a8b973ddc255edde0bd51dd47387c6f4dc21dd7b2a14b00945fa
+22-05-06 22:12:25|info|transaction-monitor.js: Found 97 new transactions.
+22-05-06 22:12:25|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:12:32|info|base-web3-provider.js: Added new block with hash: 0x2d8fcfb4bae96fe018cf56ac173b23f3c24bede844553babbf87aada8f7d008d
+22-05-06 22:12:32|info|transaction-monitor.js: Found 90 new transactions.
+22-05-06 22:12:32|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:12:57|info|base-web3-provider.js: Added new block with hash: 0x7252400cb9943252b491e22c240aeb303d14e93222325a92de0d9887d990d6cc
+22-05-06 22:12:57|info|base-web3-provider.js: Added new block with hash: 0x90a1e025c053925a581af5ffc6fdacc00ffbef2809faef4a081c754bbfeb8304
+22-05-06 22:12:57|info|transaction-monitor.js: Found 49 new transactions.
+22-05-06 22:12:57|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:12:58|info|transaction-monitor.js: Found 214 new transactions.
+22-05-06 22:12:58|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:13:07|info|base-web3-provider.js: Watching blocks with transactions ...
+22-05-06 22:13:07|info|dynamic-config.js: Scheduling config change detection mechanism.
+22-05-06 22:13:07|info|init.js: Initializing DB
+22-05-06 22:13:07|info|index.js: Worker is running
+22-05-06 22:13:17|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:13:17|info|dynamic-config.js: Configuration change detected! Reloading: {
+  "id": 1,
+  "appliedAt": "2022-05-06T19:03:41.295Z",
+  "configJSON": "{}",
+  "isActive": true,
+  "createdAt": "2022-05-06T19:03:41.297Z",
+  "updatedAt": "2022-05-06T19:03:41.297Z"
+}
+22-05-06 22:13:17|info|dynamic-config.js: Active configuration: {
+  "id": 1,
+  "appliedAt": "2022-05-06T19:03:41.295Z",
+  "configJSON": "{}",
+  "isActive": true,
+  "createdAt": "2022-05-06T19:03:41.297Z",
+  "updatedAt": "2022-05-06T19:03:41.297Z"
+}
+22-05-06 22:13:17|info|transaction-monitor.js: Handling config change. New transaction filters: undefined
+22-05-06 22:13:17|warn|transaction-monitor.js: Config is empty, do not expect any tracking in DB
+22-05-06 22:13:20|info|base-web3-provider.js: Added new block with hash: 0xb2106b82cb809bbdf81950311b2409b244bf0a8c58676be3266b041d3dc3a714
+22-05-06 22:13:21|info|transaction-monitor.js: Found 232 new transactions.
+22-05-06 22:13:21|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:13:27|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:13:28|info|base-web3-provider.js: Added new block with hash: 0xdacc3417e70d3f4f61e021cd645e21ac45a66b84190625df802c8a5573156944
+22-05-06 22:13:28|info|transaction-monitor.js: Found 122 new transactions.
+22-05-06 22:13:28|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:13:31|info|base-web3-provider.js: Added new block with hash: 0x638f93579bc7ad27a5f97f1b28298220d2c840852d0a3f7020a629b571fa895f
+22-05-06 22:13:32|info|transaction-monitor.js: Found 93 new transactions.
+22-05-06 22:13:32|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:13:37|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:13:47|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:13:57|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:13:57|info|base-web3-provider.js: Added new block with hash: 0x0ca8c28c34f7ce66924ff296a89827313c9a3e29a23ab07c5e468be69ef8afe7
+22-05-06 22:13:58|info|transaction-monitor.js: Found 251 new transactions.
+22-05-06 22:13:58|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:14:06|info|base-web3-provider.js: Added new block with hash: 0xae410e601e109cd7a95ddc0838079cdfad003f930f4361dfd5c26fe7ed857d66
+22-05-06 22:14:07|info|transaction-monitor.js: Found 173 new transactions.
+22-05-06 22:14:07|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:14:07|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:14:17|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:14:27|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:14:37|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:14:47|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:14:57|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:15:07|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:15:17|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:15:27|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:15:31|info|base-web3-provider.js: Added new block with hash: 0x40c5b3f58f8cb9d1d1e6bad133049e76271142b9de9e88a2440157c2b7de3745
+22-05-06 22:15:31|info|transaction-monitor.js: Found 8 new transactions.
+22-05-06 22:15:31|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:15:37|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:15:47|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:15:49|info|base-web3-provider.js: Added new block with hash: 0xc2bd4eb6791cf51b0db315489051e5b3be8c0e1a4e50acbb42303f337bef5074
+22-05-06 22:15:50|info|transaction-monitor.js: Found 532 new transactions.
+22-05-06 22:15:50|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:15:57|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:16:07|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:16:17|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:16:19|info|base-web3-provider.js: Added new block with hash: 0x77fcf7549555ff880f3a6ac39a643bb0610916d62a0cdb83706257f3a3f5f5a4
+22-05-06 22:16:20|info|transaction-monitor.js: Found 332 new transactions.
+22-05-06 22:16:20|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:16:27|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:16:28|info|base-web3-provider.js: Added new block with hash: 0x0b5886f5c257081e1c02ca071f3390baf8e3d9e441f1e010125a0e0367b5fa10
+22-05-06 22:16:28|info|base-web3-provider.js: Added new block with hash: 0x3a822fe95a98e6d0412b31c7efb44ff81444b0e7bcea6e831b98977689f08336
+22-05-06 22:16:29|info|transaction-monitor.js: Found 334 new transactions.
+22-05-06 22:16:29|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:16:30|info|transaction-monitor.js: Found 11 new transactions.
+22-05-06 22:16:30|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:16:35|info|base-web3-provider.js: Added new block with hash: 0x4f790121cc4c4938fb041b4e69cb26d8beaf8185211e891f64b9d7ce3e277530
+22-05-06 22:16:35|info|transaction-monitor.js: Found 131 new transactions.
+22-05-06 22:16:35|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:16:37|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:16:39|info|base-web3-provider.js: Added new block with hash: 0x2166192c8341af28c1345d3ff88d0d5d055bd8bf1630b43a1a25895672f09cbe
+22-05-06 22:16:39|info|transaction-monitor.js: Found 33 new transactions.
+22-05-06 22:16:39|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:16:39|info|base-web3-provider.js: Added new block with hash: 0x331ee1e81b4d7f2daccee0c07354760e31516339be54d3ae95d88f92e857ae61
+22-05-06 22:16:39|info|transaction-monitor.js: Found 0 new transactions.
+22-05-06 22:16:39|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:16:47|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:16:57|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:16:59|info|base-web3-provider.js: Added new block with hash: 0x09bdf0f3bfc0e1c216a0fc13dd2691941de6d82fd62a4730a3322abf43ff69df
+22-05-06 22:17:01|info|transaction-monitor.js: Found 319 new transactions.
+22-05-06 22:17:01|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:17:02|info|base-web3-provider.js: Added new block with hash: 0x21dae5a18cf749a780c53e1a94382f2b2c90e4222635642470265cd199be50b3
+22-05-06 22:17:02|info|transaction-monitor.js: Found 48 new transactions.
+22-05-06 22:17:02|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:17:07|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:17:15|info|base-web3-provider.js: Added new block with hash: 0xdc89d16af271fb909d52e046c99ff7ad09447c67605ec4c75725f7bfec2864c0
+22-05-06 22:17:15|info|transaction-monitor.js: Found 197 new transactions.
+22-05-06 22:17:15|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:17:17|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:17:17|info|base-web3-provider.js: Added new block with hash: 0x146de844eb3fdeda55594697814af65b76da696bcd904ad3cd79d273a079f6f3
+22-05-06 22:17:18|info|transaction-monitor.js: Found 77 new transactions.
+22-05-06 22:17:18|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:17:27|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:17:37|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:17:44|info|base-web3-provider.js: Added new block with hash: 0x0559fb9746122705c01e6c53b7901ad7ba133f63e72150154dd082be849ca9d0
+22-05-06 22:17:45|info|transaction-monitor.js: Found 314 new transactions.
+22-05-06 22:17:45|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:17:47|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:17:56|info|base-web3-provider.js: Added new block with hash: 0x66a4c29b7926d23f2ea97db37626832a9f19a34f140a2bd10509f10dd38beeed
+22-05-06 22:17:56|info|transaction-monitor.js: Found 147 new transactions.
+22-05-06 22:17:56|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:17:57|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:18:02|info|base-web3-provider.js: Added new block with hash: 0x4cb25fe96d32ed3e67b3978627e1d711766268e0f46a8b630fd6876cebe07cd5
+22-05-06 22:18:03|info|transaction-monitor.js: Found 111 new transactions.
+22-05-06 22:18:03|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:18:07|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:18:22|info|base-web3-provider.js: Watching blocks with transactions ...
+22-05-06 22:18:22|info|dynamic-config.js: Scheduling config change detection mechanism.
+22-05-06 22:18:22|info|init.js: Initializing DB
+22-05-06 22:18:22|info|index.js: Worker is running
+22-05-06 22:18:32|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:18:32|info|dynamic-config.js: Error while checking/applying new configs: {}
+22-05-06 22:18:42|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:18:42|info|dynamic-config.js: Error while checking/applying new configs: {}
+22-05-06 22:18:52|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:18:52|info|dynamic-config.js: Error while checking/applying new configs: {}
+22-05-06 22:18:53|info|base-web3-provider.js: Added new block with hash: 0xc77e8dfbc2ea1af47e2bbc89c56eebe9a821e5257ae88ad4ed33fccfd3b60e21
+22-05-06 22:18:53|info|base-web3-provider.js: Added new block with hash: 0xd072a6061cd669607b2cd7934c63f97023c5e92ee1652d7f1d50e220d3797a44
+22-05-06 22:18:55|info|transaction-monitor.js: Found 117 new transactions.
+22-05-06 22:18:55|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:18:55|info|transaction-monitor.js: Found 356 new transactions.
+22-05-06 22:18:55|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:19:00|info|base-web3-provider.js: Added new block with hash: 0x142a9b09853a555b282e95d799dbdb33979e68d3dccd63fc552280809b665246
+22-05-06 22:19:00|info|transaction-monitor.js: Found 118 new transactions.
+22-05-06 22:19:00|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:19:02|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:19:02|info|dynamic-config.js: Error while checking/applying new configs: {}
+22-05-06 22:19:12|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:19:12|info|dynamic-config.js: Error while checking/applying new configs: {}
+22-05-06 22:19:22|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:19:22|info|dynamic-config.js: Error while checking/applying new configs: {}
+22-05-06 22:19:24|info|base-web3-provider.js: Added new block with hash: 0x112b39ad7d5546463156230a483c25d19738e3f5803c384d53bd911535c3aa44
+22-05-06 22:19:25|info|transaction-monitor.js: Found 239 new transactions.
+22-05-06 22:19:25|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:19:30|info|base-web3-provider.js: Added new block with hash: 0x1e5dc1f56fe54fef675f1af29b448014f3c63f7365f62127ae925cbeb4808f8f
+22-05-06 22:19:30|info|transaction-monitor.js: Found 73 new transactions.
+22-05-06 22:19:30|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:19:32|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:19:32|info|dynamic-config.js: Error while checking/applying new configs: {}
+22-05-06 22:19:42|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:19:42|info|dynamic-config.js: Error while checking/applying new configs: {}
+22-05-06 22:19:51|info|base-web3-provider.js: Added new block with hash: 0x28ead7d582f3969ad0fa9c0def029208c892937bf81c53207931470e95d3303e
+22-05-06 22:19:52|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:19:52|info|dynamic-config.js: Error while checking/applying new configs: {}
+22-05-06 22:19:52|info|transaction-monitor.js: Found 202 new transactions.
+22-05-06 22:19:52|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:20:02|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:20:02|info|dynamic-config.js: Error while checking/applying new configs: {}
+22-05-06 22:20:09|info|base-web3-provider.js: Added new block with hash: 0x48b17a20e8f28039794111b7c1a5ab32d5d666c6f3aefda2b4d5bf847f842436
+22-05-06 22:20:10|info|transaction-monitor.js: Found 242 new transactions.
+22-05-06 22:20:10|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:20:12|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:20:12|info|dynamic-config.js: Error while checking/applying new configs: {}
+22-05-06 22:20:22|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:20:22|info|dynamic-config.js: Error while checking/applying new configs: {}
+22-05-06 22:20:27|info|base-web3-provider.js: Added new block with hash: 0x4a076d4726bf09078485d3069665b5f4a6e9483389ccbe96405966e8277a0afa
+22-05-06 22:20:27|info|transaction-monitor.js: Found 158 new transactions.
+22-05-06 22:20:28|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:20:32|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:20:32|info|dynamic-config.js: Error while checking/applying new configs: {}
+22-05-06 22:20:34|info|base-web3-provider.js: Watching blocks with transactions ...
+22-05-06 22:20:34|info|dynamic-config.js: Scheduling config change detection mechanism.
+22-05-06 22:20:34|info|init.js: Initializing DB
+22-05-06 22:20:34|info|index.js: Worker is running
+22-05-06 22:20:34|debug|init.js: Executing (default): CREATE TABLE IF NOT EXISTS `Transaction` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `hash` VARCHAR(255), `transactionIndex` NUMBER, `to` VARCHAR(255), `from` VARCHAR(255), `gas` NUMBER, `gasPrice` VARCHAR(255), `configurationId` NUMBER, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL);
+22-05-06 22:20:34|debug|init.js: Executing (default): PRAGMA INDEX_LIST(`Transaction`)
+22-05-06 22:20:34|debug|init.js: Executing (default): CREATE TABLE IF NOT EXISTS `Configuration` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `appliedAt` DATETIME, `configJSON` TEXT, `isActive` TINYINT(1), `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL);
+22-05-06 22:20:34|debug|init.js: Executing (default): PRAGMA INDEX_LIST(`Configuration`)
+22-05-06 22:20:41|info|base-web3-provider.js: Added new block with hash: 0xcb96e6f14fca3b3846b5b091ade8dc50556dc99b7acc26b02c34da6e802aa3ab
+22-05-06 22:20:44|info|transaction-monitor.js: Found 238 new transactions.
+22-05-06 22:20:44|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:20:44|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:20:44|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:20:44|info|dynamic-config.js: Configuration change detected! Reloading: {
+  "id": 1,
+  "appliedAt": "2022-05-06T19:03:41.295Z",
+  "configJSON": "{}",
+  "isActive": true,
+  "createdAt": "2022-05-06T19:03:41.297Z",
+  "updatedAt": "2022-05-06T19:03:41.297Z"
+}
+22-05-06 22:20:44|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:20:44|info|dynamic-config.js: Active configuration: {
+  "id": 1,
+  "appliedAt": "2022-05-06T19:03:41.295Z",
+  "configJSON": "{}",
+  "isActive": true,
+  "createdAt": "2022-05-06T19:03:41.297Z",
+  "updatedAt": "2022-05-06T19:03:41.297Z"
+}
+22-05-06 22:20:44|info|transaction-monitor.js: Handling config change. New transaction filters: undefined
+22-05-06 22:20:44|warn|transaction-monitor.js: Config is empty, do not expect any tracking in DB
+22-05-06 22:20:54|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:20:54|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:20:59|info|base-web3-provider.js: Added new block with hash: 0x6e50d3b0b6b84b7c3e48c020f47119ec76d22c305934c61359277974f321cd11
+22-05-06 22:21:00|info|transaction-monitor.js: Found 164 new transactions.
+22-05-06 22:21:00|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:21:04|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:21:04|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:21:10|info|base-web3-provider.js: Added new block with hash: 0x0156b8ea1ac042a0b0a6ee5089a7d04ba096e08daaccae93f33cdf4512fff9d4
+22-05-06 22:21:10|info|base-web3-provider.js: Added new block with hash: 0x4d3fd3d7a425df4f8550abe01c2b1cf0493dffce7f1059a0342193af4af3fca5
+22-05-06 22:21:10|info|transaction-monitor.js: Found 129 new transactions.
+22-05-06 22:21:10|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:21:11|info|transaction-monitor.js: Found 26 new transactions.
+22-05-06 22:21:11|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:21:14|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:21:14|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:21:24|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:21:24|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:21:34|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:21:34|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:21:44|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:21:44|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:21:54|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:21:54|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:22:04|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:22:04|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:22:14|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:22:14|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:22:19|info|base-web3-provider.js: Added new block with hash: 0x68de27060d8c6a84ad51b19c9cf043afd8eccb73adeb08372c0ce673770bcdce
+22-05-06 22:22:20|info|transaction-monitor.js: Found 236 new transactions.
+22-05-06 22:22:20|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:22:24|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:22:24|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:22:25|info|base-web3-provider.js: Added new block with hash: 0x6f6f18310beda56134b08df34c3164b91aeb01f0e5c5251e784475d950b04099
+22-05-06 22:22:26|info|transaction-monitor.js: Found 338 new transactions.
+22-05-06 22:22:26|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:22:34|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:22:34|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:22:44|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:22:44|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:22:47|info|base-web3-provider.js: Added new block with hash: 0x8bbf795c4d40bf36028f601856eb0be5b69a32923c2f887d63b12d38acc29762
+22-05-06 22:22:47|info|transaction-monitor.js: Found 346 new transactions.
+22-05-06 22:22:47|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:22:48|info|base-web3-provider.js: Added new block with hash: 0x2b0457f129ecf920febaa0d0d9cdd26f4bc783adc6549b27560d5ec52f0ba1d9
+22-05-06 22:22:49|info|transaction-monitor.js: Found 137 new transactions.
+22-05-06 22:22:49|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:22:54|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:22:54|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:22:59|info|base-web3-provider.js: Added new block with hash: 0xcff83512c911bfa8fdd42c138298e7662a01786df29653b4ee4bb6f35fbff910
+22-05-06 22:22:59|info|transaction-monitor.js: Found 91 new transactions.
+22-05-06 22:22:59|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:23:02|info|base-web3-provider.js: Added new block with hash: 0x757ac0066c0e03a4958a639c017f9e9122136a51cecded43edce7dad22a74170
+22-05-06 22:23:02|info|transaction-monitor.js: Found 35 new transactions.
+22-05-06 22:23:02|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:23:04|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:23:04|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:23:09|info|base-web3-provider.js: Added new block with hash: 0xcc69302f6fbb980060a1a0d4d6697237edf7611797e28e53604fd4e13d1bd5c6
+22-05-06 22:23:09|info|transaction-monitor.js: Found 122 new transactions.
+22-05-06 22:23:09|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:23:14|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:23:14|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:23:16|info|base-web3-provider.js: Added new block with hash: 0x265dca2e9b9eff8b82821bed7fb4ca22b153995efa3b488a1037360fa1a8fc94
+22-05-06 22:23:16|info|transaction-monitor.js: Found 61 new transactions.
+22-05-06 22:23:16|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:23:23|info|base-web3-provider.js: Added new block with hash: 0x213b6e0e0fc68efd4a832b0080948d9a045c3d34faf969b92e3670fda7ec7c83
+22-05-06 22:23:23|info|transaction-monitor.js: Found 116 new transactions.
+22-05-06 22:23:23|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:23:24|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:23:24|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:23:26|info|base-web3-provider.js: Added new block with hash: 0x363fc707ae42779a7c76ce1d596fdf13159138c2ca7ab539b0a629301659e4f5
+22-05-06 22:23:26|info|transaction-monitor.js: Found 69 new transactions.
+22-05-06 22:23:26|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:23:32|info|base-web3-provider.js: Added new block with hash: 0x37a63900774a2ead1a44a9eab88f39e0d9400b950af44e813be8064110893ec8
+22-05-06 22:23:32|info|base-web3-provider.js: Added new block with hash: 0x6fdf43c486b08f03ee2e7a09013837e6e9510f87be968aedc7740ea06fb4ea89
+22-05-06 22:23:32|info|transaction-monitor.js: Found 121 new transactions.
+22-05-06 22:23:32|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:23:32|info|transaction-monitor.js: Found 41 new transactions.
+22-05-06 22:23:32|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:23:34|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:23:34|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:23:44|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:23:44|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:23:44|info|base-web3-provider.js: Added new block with hash: 0x91dbf4697832b53b91dacda6ca99eb55c5f9d8c7d904f26bccb245438a5d06d6
+22-05-06 22:23:44|info|base-web3-provider.js: Added new block with hash: 0x489ffe6712e34418c8e325a7fcdb5f51cace3238cc2a705c1bcdff428fc51326
+22-05-06 22:23:45|info|transaction-monitor.js: Found 151 new transactions.
+22-05-06 22:23:45|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:23:45|info|transaction-monitor.js: Found 150 new transactions.
+22-05-06 22:23:45|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:23:54|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:23:54|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:24:04|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:24:04|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:24:14|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:24:14|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:24:24|info|base-web3-provider.js: Added new block with hash: 0xa6ae8557a240564c19c7e6a35fc1f6ab7266c5db34ebdd4209f8155a28cc071b
+22-05-06 22:24:24|info|transaction-monitor.js: Found 244 new transactions.
+22-05-06 22:24:24|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:24:24|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:24:24|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:24:34|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:24:34|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:24:38|info|base-web3-provider.js: Added new block with hash: 0x5992ec706cae448085c847a14bb107f7428378f42d5b621da8a2780aa48321ba
+22-05-06 22:24:39|info|transaction-monitor.js: Found 203 new transactions.
+22-05-06 22:24:39|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:24:44|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:24:44|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:24:51|info|base-web3-provider.js: Added new block with hash: 0x6a63063cb4ca78925445d7f1dc725350161ab228af16ab427f9042fc8559319a
+22-05-06 22:24:51|info|transaction-monitor.js: Found 226 new transactions.
+22-05-06 22:24:51|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:24:54|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:24:54|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:25:04|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:25:04|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:25:06|info|base-web3-provider.js: Added new block with hash: 0xe8d941481a3adca911e4be3bc8a6cb0a4cdfea1e03e88d92f6cb4efcad3c8a7a
+22-05-06 22:25:06|info|transaction-monitor.js: Found 214 new transactions.
+22-05-06 22:25:06|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:25:14|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:25:14|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:25:24|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:25:24|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:25:27|info|base-web3-provider.js: Added new block with hash: 0x8ec871d105b8502d06eeced5c182449e0dcb8891b91cfebb6368f40a7fb2b919
+22-05-06 22:25:27|info|transaction-monitor.js: Found 13 new transactions.
+22-05-06 22:25:27|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:25:34|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:25:34|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:25:44|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:25:44|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:25:54|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:25:54|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:26:00|info|base-web3-provider.js: Added new block with hash: 0x10ad1a251423db0147e9ed5d8d628b62cdd75b3f93c3bc18c33d431f84e723af
+22-05-06 22:26:00|info|transaction-monitor.js: Found 385 new transactions.
+22-05-06 22:26:00|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:26:04|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:26:04|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:26:07|info|base-web3-provider.js: Added new block with hash: 0xf7c04b42ecc94ebb1f68c8f4a8998b562b999438216ac17c36ada3e73c0e7404
+22-05-06 22:26:07|info|transaction-monitor.js: Found 111 new transactions.
+22-05-06 22:26:07|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:26:14|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:26:14|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:26:17|info|base-web3-provider.js: Added new block with hash: 0x8dde83bb820d5f95a61b0cd9060175f92186e91cf058fdba334ea196dc1e6c48
+22-05-06 22:26:17|info|base-web3-provider.js: Added new block with hash: 0xc11622f925ee9be3a928a567b96963ed69c2f22b603837c54931db488ac4177f
+22-05-06 22:26:17|info|transaction-monitor.js: Found 95 new transactions.
+22-05-06 22:26:17|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:26:17|info|transaction-monitor.js: Found 69 new transactions.
+22-05-06 22:26:17|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:26:23|info|base-web3-provider.js: Added new block with hash: 0x1f090fdcc4e00673374f18a1580f622c6f7fe018d0cb0c79348dade421ad79f8
+22-05-06 22:26:23|info|transaction-monitor.js: Found 98 new transactions.
+22-05-06 22:26:23|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:26:24|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:26:24|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:26:34|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:26:34|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:26:38|info|base-web3-provider.js: Added new block with hash: 0x83f564c936580a7cf396d14ac1068437197ca7780c121eeca00e50d992da18c2
+22-05-06 22:26:38|info|transaction-monitor.js: Found 246 new transactions.
+22-05-06 22:26:38|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:26:41|info|base-web3-provider.js: Added new block with hash: 0x7ec68e54f618fc35a53aaa0cd7260a5c95533bc364f8dabcbc02be6f2d8568bb
+22-05-06 22:26:41|info|transaction-monitor.js: Found 14 new transactions.
+22-05-06 22:26:41|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:26:44|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:26:44|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:26:50|info|base-web3-provider.js: Added new block with hash: 0x63da11a6d1042e25a79f802ec17e60f5889103deae6a9839c51c0638dbdf394c
+22-05-06 22:26:50|info|transaction-monitor.js: Found 131 new transactions.
+22-05-06 22:26:50|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:26:53|info|base-web3-provider.js: Added new block with hash: 0x7fbf37f6c6d0a3195b89970c1b01b1288558c65791804a547e58aef78cc01dc7
+22-05-06 22:26:53|info|transaction-monitor.js: Found 52 new transactions.
+22-05-06 22:26:53|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:26:54|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:26:54|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:27:04|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:27:04|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:27:08|info|base-web3-provider.js: Added new block with hash: 0x7e46b1f503510107baa1d983860713b7e225151ccef144f4d70b8a3f2d1daffb
+22-05-06 22:27:09|info|transaction-monitor.js: Found 779 new transactions.
+22-05-06 22:27:09|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:27:14|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:27:14|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:27:17|info|base-web3-provider.js: Added new block with hash: 0x63620b3c89679d43b75e55ebd8cd4df7dd9d8ef6b957df64fda6c6d937391903
+22-05-06 22:27:17|info|transaction-monitor.js: Found 254 new transactions.
+22-05-06 22:27:17|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:27:23|info|base-web3-provider.js: Added new block with hash: 0xe7a35977a20332424e881223d21e398753e23a57a4370ed14e1873d614889ee5
+22-05-06 22:27:23|info|transaction-monitor.js: Found 93 new transactions.
+22-05-06 22:27:23|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:27:24|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:27:24|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:27:34|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:27:34|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:27:44|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:27:44|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:27:51|info|base-web3-provider.js: Added new block with hash: 0x1a86f9bfe7ba814dc01e1258653211547f263080b8fdf975300658b958c984b5
+22-05-06 22:27:51|info|transaction-monitor.js: Found 284 new transactions.
+22-05-06 22:27:51|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:27:54|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:27:54|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:28:00|info|base-web3-provider.js: Added new block with hash: 0xcc21426e3ddfaeb544dafcc120ce728ec9b174ec7810e201f3b22d1b58840072
+22-05-06 22:28:00|info|transaction-monitor.js: Found 136 new transactions.
+22-05-06 22:28:00|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:28:03|info|base-web3-provider.js: Added new block with hash: 0x5fd6e8fd4c6478e5f7450fac0483559f6394cb83aff5737995c44159ab0a59d1
+22-05-06 22:28:03|info|transaction-monitor.js: Found 29 new transactions.
+22-05-06 22:28:03|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:28:04|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:28:04|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:28:14|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:28:14|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:28:24|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:28:24|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:28:34|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:28:34|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:28:44|info|base-web3-provider.js: Added new block with hash: 0x92f6490bd90a76ab2d30d6359ac72d457be3df4d1a0c1482516b371c181b0b39
+22-05-06 22:28:44|info|base-web3-provider.js: Added new block with hash: 0xb1493e4c8c3d276991058bbaa90676fad2ece2d666515eb6bbce8fa824136a53
+22-05-06 22:28:44|info|transaction-monitor.js: Found 67 new transactions.
+22-05-06 22:28:44|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:28:44|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:28:44|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:28:44|info|transaction-monitor.js: Found 323 new transactions.
+22-05-06 22:28:44|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:28:54|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:28:54|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:28:58|info|base-web3-provider.js: Added new block with hash: 0xbbaf5632dd96395d5f071e5ded4f24b5a63ffc3e1f811f82c2e59dee9c677ff3
+22-05-06 22:28:58|info|base-web3-provider.js: Added new block with hash: 0xf6ca0afeb011fdff7191e06c36ebfc91f85024cfd6cf3429e5088ed6ddce0c76
+22-05-06 22:28:58|info|transaction-monitor.js: Found 20 new transactions.
+22-05-06 22:28:58|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:28:59|info|transaction-monitor.js: Found 130 new transactions.
+22-05-06 22:28:59|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:29:04|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:29:04|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:29:14|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:29:14|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:29:24|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:29:24|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:29:31|info|base-web3-provider.js: Added new block with hash: 0x16c9698c859a38877f10f52b43f7426276dd76e8180c9e1e46d4e15a33ff48a1
+22-05-06 22:29:31|info|transaction-monitor.js: Found 358 new transactions.
+22-05-06 22:29:31|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:29:34|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:29:34|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:29:37|info|base-web3-provider.js: Added new block with hash: 0x41b0101972a97a690b4d8a8076b3342533d4aeb4fc1a713f2c4ba375b7bee142
+22-05-06 22:29:37|info|transaction-monitor.js: Found 95 new transactions.
+22-05-06 22:29:37|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:29:44|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:29:44|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:29:45|info|base-web3-provider.js: Added new block with hash: 0x6a360765d89d2f46412f6203f194ea04b849623d5578fb0484569157d5f37bed
+22-05-06 22:29:45|info|base-web3-provider.js: Added new block with hash: 0x45152c30cd23a5248e5bccac1277a1d427a97e2c50a9660b9c6d6806b9258b9c
+22-05-06 22:29:46|info|transaction-monitor.js: Found 82 new transactions.
+22-05-06 22:29:46|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:29:46|info|transaction-monitor.js: Found 62 new transactions.
+22-05-06 22:29:46|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:29:54|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:29:54|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:30:04|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:30:04|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:30:14|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:30:14|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:30:24|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:30:24|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:30:34|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:30:34|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:30:44|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:30:44|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:30:54|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:30:54|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:31:03|info|base-web3-provider.js: Added new block with hash: 0x5187dab050bfae07b2988f1fa485fb6137cea11683e47ca3906b4e6a386926a8
+22-05-06 22:31:04|info|transaction-monitor.js: Found 472 new transactions.
+22-05-06 22:31:04|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:31:04|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:31:04|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:31:13|info|base-web3-provider.js: Added new block with hash: 0x82c4bd3a34b418015789cc95faf5b361c339acb46f38ff3d5287360cfa4d70cf
+22-05-06 22:31:14|info|transaction-monitor.js: Found 250 new transactions.
+22-05-06 22:31:14|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:31:14|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:31:14|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:31:22|info|base-web3-provider.js: Added new block with hash: 0x60c8eb2fd8266c4c8ab12be2bf55cf554b950a887c824189af05e5cef3e108ce
+22-05-06 22:31:22|info|base-web3-provider.js: Added new block with hash: 0x771fb4a172064ff1ae8a08670fb6bbf168e5352cbcaf4467cc64126c2c769625
+22-05-06 22:31:22|info|transaction-monitor.js: Found 73 new transactions.
+22-05-06 22:31:22|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:31:22|info|transaction-monitor.js: Found 286 new transactions.
+22-05-06 22:31:22|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:31:24|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:31:24|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:31:27|info|base-web3-provider.js: Added new block with hash: 0x005fbaab03056bafd417d41d1b607ae1e8ad8dad0de62704168045818939eeed
+22-05-06 22:31:27|info|transaction-monitor.js: Found 8 new transactions.
+22-05-06 22:31:27|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:31:29|info|base-web3-provider.js: Added new block with hash: 0xa6b8ab3a6fcd431cf52ec781738d38318e994a6e37b42fa7daef62d4608c6c36
+22-05-06 22:31:30|info|transaction-monitor.js: Found 110 new transactions.
+22-05-06 22:31:30|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:31:34|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:31:34|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:31:44|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:31:44|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:31:54|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:31:54|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:32:03|info|base-web3-provider.js: Added new block with hash: 0x53078f686842dd299bbcf7a8aa729714356a9ad3852c31e43f48e7b317383bff
+22-05-06 22:32:03|info|base-web3-provider.js: Added new block with hash: 0x18383e5373eebd11035de4c9da77ce1dc0bcd10ee0038111fd5b98aec075df00
+22-05-06 22:32:03|info|transaction-monitor.js: Found 42 new transactions.
+22-05-06 22:32:03|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:32:03|info|transaction-monitor.js: Found 386 new transactions.
+22-05-06 22:32:03|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:32:04|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:32:04|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:32:06|info|base-web3-provider.js: Added new block with hash: 0x00fe44c915ca9b924f3640c6b004034a9ac14cb901e70292659d6ea54f5e687e
+22-05-06 22:32:06|info|base-web3-provider.js: Added new block with hash: 0x405f37381ff6bf059c0d5b1f29925053f2eba1771f055278b930cfa690fa3dac
+22-05-06 22:32:06|info|transaction-monitor.js: Found 20 new transactions.
+22-05-06 22:32:06|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:32:06|info|transaction-monitor.js: Found 61 new transactions.
+22-05-06 22:32:06|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:32:14|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:32:14|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:32:24|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:32:24|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:32:31|info|base-web3-provider.js: Added new block with hash: 0xd6cab78a73fe603bc9b1d57de1585a682d2a7b5eae7b306ab0c32566883499e4
+22-05-06 22:32:32|info|transaction-monitor.js: Found 774 new transactions.
+22-05-06 22:32:32|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:32:34|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:32:34|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:32:37|info|base-web3-provider.js: Added new block with hash: 0xf45816b7ba9e463bca1682bb8e150bc1193b05894a19f8ed0cd00885f32de356
+22-05-06 22:32:37|info|transaction-monitor.js: Found 321 new transactions.
+22-05-06 22:32:37|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:32:44|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:32:44|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:32:52|info|base-web3-provider.js: Added new block with hash: 0x20c83c2d2a924313254029af669552984c92bf8c61dad562dcb54d8b87daa8df
+22-05-06 22:32:52|info|base-web3-provider.js: Added new block with hash: 0x18645099fde44cf998bfdcb27b35286b46808329d27e8af96eb38e3d3071ec49
+22-05-06 22:32:52|info|transaction-monitor.js: Found 0 new transactions.
+22-05-06 22:32:52|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:32:52|info|transaction-monitor.js: Found 226 new transactions.
+22-05-06 22:32:52|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:32:54|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:32:54|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:33:04|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:33:04|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:33:10|info|base-web3-provider.js: Added new block with hash: 0xb814c5809878cbff0b212cef4b4dffaa02edd6af4ed2eaea809b4df4a9f6df17
+22-05-06 22:33:10|info|transaction-monitor.js: Found 299 new transactions.
+22-05-06 22:33:10|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:33:14|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:33:14|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:33:24|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:33:24|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:36:27|error|base-web3-provider.js: uncaughtException: Dialect needs to be explicitly supplied as of v4.0.0
+Error: Dialect needs to be explicitly supplied as of v4.0.0
+    at new Sequelize (/Users/tbozhikov/Documents/work/NX/node_modules/sequelize/lib/sequelize.js:133:13)
+    at Object.<anonymous> (/Users/tbozhikov/Documents/work/NX/src/db/init.js:9:19)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/Users/tbozhikov/Documents/work/NX/src/worker/index.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+22-05-06 22:36:27|info|dynamic-config.js: Scheduling config change detection mechanism.
+22-05-06 22:36:27|error|transaction-monitor.js: uncaughtException: Dialect needs to be explicitly supplied as of v4.0.0
+Error: Dialect needs to be explicitly supplied as of v4.0.0
+    at new Sequelize (/Users/tbozhikov/Documents/work/NX/node_modules/sequelize/lib/sequelize.js:133:13)
+    at Object.<anonymous> (/Users/tbozhikov/Documents/work/NX/src/db/init.js:9:19)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/Users/tbozhikov/Documents/work/NX/src/worker/index.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+22-05-06 22:36:27|error|init.js: uncaughtException: Dialect needs to be explicitly supplied as of v4.0.0
+Error: Dialect needs to be explicitly supplied as of v4.0.0
+    at new Sequelize (/Users/tbozhikov/Documents/work/NX/node_modules/sequelize/lib/sequelize.js:133:13)
+    at Object.<anonymous> (/Users/tbozhikov/Documents/work/NX/src/db/init.js:9:19)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/Users/tbozhikov/Documents/work/NX/src/worker/index.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+22-05-06 22:36:27|error|dynamic-config.js: uncaughtException: Dialect needs to be explicitly supplied as of v4.0.0
+Error: Dialect needs to be explicitly supplied as of v4.0.0
+    at new Sequelize (/Users/tbozhikov/Documents/work/NX/node_modules/sequelize/lib/sequelize.js:133:13)
+    at Object.<anonymous> (/Users/tbozhikov/Documents/work/NX/src/db/init.js:9:19)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/Users/tbozhikov/Documents/work/NX/src/worker/index.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+22-05-06 22:47:31|info|base-web3-provider.js: Watching blocks with transactions ...
+22-05-06 22:47:31|info|dynamic-config.js: Scheduling config change detection mechanism.
+22-05-06 22:47:31|info|init.js: Initializing DB
+22-05-06 22:47:31|info|index.js: Worker is running
+22-05-06 22:47:31|debug|init.js: Executing (default): CREATE TABLE IF NOT EXISTS `Transaction` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `hash` VARCHAR(255), `transactionIndex` NUMBER, `to` VARCHAR(255), `from` VARCHAR(255), `gas` NUMBER, `gasPrice` VARCHAR(255), `configurationId` NUMBER, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL);
+22-05-06 22:47:31|debug|init.js: Executing (default): PRAGMA INDEX_LIST(`Transaction`)
+22-05-06 22:47:31|debug|init.js: Executing (default): CREATE TABLE IF NOT EXISTS `Configuration` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `appliedAt` DATETIME, `configJSON` TEXT, `isActive` TINYINT(1), `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL);
+22-05-06 22:47:31|debug|init.js: Executing (default): PRAGMA INDEX_LIST(`Configuration`)
+22-05-06 22:47:41|info|base-web3-provider.js: Added new block with hash: 0xd93b316d997ed77055273db7528f61e7183845c1f9393f5cc54fd41f213e68a5
+22-05-06 22:47:41|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:47:41|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:47:41|info|dynamic-config.js: Configuration change detected! Reloading: {
+  "id": 1,
+  "appliedAt": "2022-05-06T19:03:41.295Z",
+  "configJSON": "{}",
+  "isActive": true,
+  "createdAt": "2022-05-06T19:03:41.297Z",
+  "updatedAt": "2022-05-06T19:03:41.297Z"
+}
+22-05-06 22:47:41|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:47:41|info|dynamic-config.js: Active configuration: {
+  "id": 1,
+  "appliedAt": "2022-05-06T19:03:41.295Z",
+  "configJSON": "{}",
+  "isActive": true,
+  "createdAt": "2022-05-06T19:03:41.297Z",
+  "updatedAt": "2022-05-06T19:03:41.297Z"
+}
+22-05-06 22:47:41|info|transaction-monitor.js: Handling config change. New transaction filters: undefined
+22-05-06 22:47:41|warn|transaction-monitor.js: Config is empty, do not expect any tracking in DB
+22-05-06 22:47:42|info|transaction-monitor.js: Found 300 new transactions.
+22-05-06 22:47:42|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:47:51|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:47:51|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:48:01|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:48:01|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:48:11|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:48:11|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:48:21|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:48:21|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:48:31|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:48:31|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:48:41|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:48:41|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:48:49|info|base-web3-provider.js: Added new block with hash: 0xe6dcd9db4d0fae513ca56f8955eb32776df0cc788185c14f4b2d557cdee96045
+22-05-06 22:48:49|info|transaction-monitor.js: Found 367 new transactions.
+22-05-06 22:48:49|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:48:51|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:48:51|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:48:55|info|base-web3-provider.js: Added new block with hash: 0x025f8cd2cbe13d9fba7946f561741eecabde4c2d64e3345f46348b299da34e74
+22-05-06 22:48:55|info|transaction-monitor.js: Found 250 new transactions.
+22-05-06 22:48:55|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:49:01|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:49:01|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:49:07|info|base-web3-provider.js: Added new block with hash: 0xdd79a623f9c1847f38c5aa245507e1b3b6576048f791953ad9b2c8479ddaa5d3
+22-05-06 22:49:08|info|transaction-monitor.js: Found 129 new transactions.
+22-05-06 22:49:08|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:49:11|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:49:11|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:49:21|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:49:21|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:49:23|info|base-web3-provider.js: Added new block with hash: 0x197b53d274589b03ab5d0d549491c2ad0d85679917fd3e6c171f96e3fdef2a72
+22-05-06 22:49:23|info|transaction-monitor.js: Found 134 new transactions.
+22-05-06 22:49:23|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:49:31|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:49:31|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:49:33|info|base-web3-provider.js: Added new block with hash: 0x9c39c3d2118478afe1f8599a75e2434a1ba0f4c89e8b717ec7d7d655488dbbfb
+22-05-06 22:49:33|info|transaction-monitor.js: Found 101 new transactions.
+22-05-06 22:49:33|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:49:41|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:49:41|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:49:50|info|base-web3-provider.js: Added new block with hash: 0x44786b0e439072937bcd269e443888ba627c68164dbf7ce83b4e333ff3ac526f
+22-05-06 22:49:50|info|base-web3-provider.js: Added new block with hash: 0xbb45fb5d0543b2c3ec8a765c3f7862450fd7fded684e04ff713a224b9d24a597
+22-05-06 22:49:50|info|transaction-monitor.js: Found 186 new transactions.
+22-05-06 22:49:50|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:49:51|info|transaction-monitor.js: Found 66 new transactions.
+22-05-06 22:49:51|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:49:51|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:49:51|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:49:53|info|base-web3-provider.js: Added new block with hash: 0x164396ff6716fa1a02d104beb3a3c41dd9cd5675d9aba706f4bb74f76956b414
+22-05-06 22:49:53|info|transaction-monitor.js: Found 117 new transactions.
+22-05-06 22:49:53|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:50:01|info|init.js: Initializing DB
+22-05-06 22:50:01|debug|init.js: Executing (default): CREATE TABLE IF NOT EXISTS `Transaction` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `hash` VARCHAR(255), `transactionIndex` NUMBER, `to` VARCHAR(255), `from` VARCHAR(255), `gas` NUMBER, `gasPrice` VARCHAR(255), `configurationId` NUMBER, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL);
+22-05-06 22:50:01|debug|init.js: Executing (default): PRAGMA INDEX_LIST(`Transaction`)
+22-05-06 22:50:01|debug|init.js: Executing (default): CREATE TABLE IF NOT EXISTS `Configuration` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `appliedAt` DATETIME, `configJSON` TEXT, `isActive` TINYINT(1), `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL);
+22-05-06 22:50:01|debug|init.js: Executing (default): PRAGMA INDEX_LIST(`Configuration`)
+22-05-06 22:50:01|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:50:01|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:50:11|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:50:11|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:50:21|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:50:21|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:50:31|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:50:31|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:50:32|info|base-web3-provider.js: Added new block with hash: 0xeddd0da5d89f9eb688b4dae99df8e7695bc2455c895f93df69295729f2ebccee
+22-05-06 22:50:33|info|transaction-monitor.js: Found 378 new transactions.
+22-05-06 22:50:33|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:50:37|info|base-web3-provider.js: Added new block with hash: 0xe45fd027d366bbdb62916d0020a8439c0eadc5b6632b7d522a51385b08692fb4
+22-05-06 22:50:37|info|transaction-monitor.js: Found 181 new transactions.
+22-05-06 22:50:37|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:50:41|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:50:41|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:50:51|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:50:51|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:50:55|info|base-web3-provider.js: Added new block with hash: 0xa94e05d35186c9fd243ddd7a1cc5a83ad6e619d498c99d12eb1ce668b11e2fd9
+22-05-06 22:50:56|info|transaction-monitor.js: Found 190 new transactions.
+22-05-06 22:50:56|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:50:58|info|base-web3-provider.js: Added new block with hash: 0xf2695242a8163d66a992f54fcf51e4c7f76b6654413ffa86b049fc85bc9932fb
+22-05-06 22:50:58|info|transaction-monitor.js: Found 41 new transactions.
+22-05-06 22:50:58|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:51:01|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:51:01|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:51:04|info|base-web3-provider.js: Added new block with hash: 0x08ee2f4fd48d3b09a479e9151f93f652b6f0c1c67090cb5390bcab387d00bcaa
+22-05-06 22:51:05|info|transaction-monitor.js: Found 88 new transactions.
+22-05-06 22:51:05|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:51:11|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:51:11|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:51:21|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:51:21|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:51:24|info|base-web3-provider.js: Added new block with hash: 0xefb90004154346847e45a9293535b76502ffbe4c3a03f55adf4ddfca62995df2
+22-05-06 22:51:25|info|transaction-monitor.js: Found 256 new transactions.
+22-05-06 22:51:25|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:51:30|info|base-web3-provider.js: Added new block with hash: 0xe404b46eb63fc42d69bf89585205846b4b6327c19e5e210c96956993f02136a4
+22-05-06 22:51:30|info|transaction-monitor.js: Found 25 new transactions.
+22-05-06 22:51:30|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:51:31|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:51:31|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:51:41|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:51:41|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:51:48|info|base-web3-provider.js: Added new block with hash: 0xb64ca535c6b78eb3c5997e252c6296d7478317171d83468a48d297e1c7c011c3
+22-05-06 22:51:48|info|transaction-monitor.js: Found 127 new transactions.
+22-05-06 22:51:48|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:51:51|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:51:51|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:52:01|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:52:01|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:52:07|info|base-web3-provider.js: Added new block with hash: 0xb58045f4e78229870821c97ad45102aebc1f7da693277ba4df2e6e295d15d938
+22-05-06 22:52:08|info|transaction-monitor.js: Found 226 new transactions.
+22-05-06 22:52:08|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:52:11|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:52:11|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:52:21|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:52:21|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:52:31|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:52:31|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:52:41|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:52:41|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:52:45|info|base-web3-provider.js: Added new block with hash: 0x8b231903a382cd03ae19e06c7064c7fc4d63663f014bb5217edd7eab2c543a71
+22-05-06 22:52:45|info|base-web3-provider.js: Added new block with hash: 0x9cde6476f53e44c92ac3cc307a7cc466b0c855e64d1cab86597cbab2521acdc8
+22-05-06 22:52:45|info|transaction-monitor.js: Found 136 new transactions.
+22-05-06 22:52:45|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:52:45|info|transaction-monitor.js: Found 329 new transactions.
+22-05-06 22:52:45|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:52:51|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:52:51|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:53:01|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:53:01|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:53:09|info|base-web3-provider.js: Added new block with hash: 0xb3ee81a81fd9e0cc4ddd9cfca68e3685790f9091792458751b983bf85bc0663a
+22-05-06 22:53:10|info|transaction-monitor.js: Found 137 new transactions.
+22-05-06 22:53:10|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:53:11|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:53:11|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:53:21|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:53:21|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:53:26|info|base-web3-provider.js: Added new block with hash: 0x70fe9581d901c854ddba6c420321c9e4b1f9d71d787c23362a2b3d9f2bba7748
+22-05-06 22:53:27|info|transaction-monitor.js: Found 252 new transactions.
+22-05-06 22:53:27|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:53:31|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:53:31|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:53:41|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:53:41|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:53:42|info|base-web3-provider.js: Added new block with hash: 0xc897018904df2793bae4465e70686cc1b39b462a00fb4d1238cc2c95fe5fe8c0
+22-05-06 22:53:42|info|transaction-monitor.js: Found 156 new transactions.
+22-05-06 22:53:42|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:53:51|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:53:51|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:54:01|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:54:01|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:54:11|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:54:11|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:54:18|info|base-web3-provider.js: Added new block with hash: 0x392d2fd13d62da4ef212f7bb21f4f51e3734a90526c33e18141f9eaf42bbdf9b
+22-05-06 22:54:18|info|transaction-monitor.js: Found 325 new transactions.
+22-05-06 22:54:18|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:54:22|info|base-web3-provider.js: Watching blocks with transactions ...
+22-05-06 22:54:21|info|dynamic-config.js: Scheduling config change detection mechanism.
+22-05-06 22:54:21|info|init.js: Initializing DB
+22-05-06 22:54:21|info|index.js: Worker is running
+22-05-06 22:54:22|debug|init.js: Executing (default): CREATE TABLE IF NOT EXISTS `Transaction` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `hash` VARCHAR(255), `transactionIndex` NUMBER, `to` VARCHAR(255), `from` VARCHAR(255), `gas` NUMBER, `gasPrice` VARCHAR(255), `configurationId` NUMBER, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL);
+22-05-06 22:54:22|debug|init.js: Executing (default): PRAGMA INDEX_LIST(`Transaction`)
+22-05-06 22:54:22|debug|init.js: Executing (default): CREATE TABLE IF NOT EXISTS `Configuration` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `appliedAt` DATETIME, `configJSON` TEXT, `isActive` TINYINT(1), `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL);
+22-05-06 22:54:22|debug|init.js: Executing (default): PRAGMA INDEX_LIST(`Configuration`)
+22-05-06 22:54:29|info|init.js: Initializing DB
+22-05-06 22:54:29|info|index.js: API Server is running on port 3000
+22-05-06 22:54:29|debug|init.js: Executing (default): CREATE TABLE IF NOT EXISTS `Transaction` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `hash` VARCHAR(255), `transactionIndex` NUMBER, `to` VARCHAR(255), `from` VARCHAR(255), `gas` NUMBER, `gasPrice` VARCHAR(255), `configurationId` NUMBER, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL);
+22-05-06 22:54:29|debug|init.js: Executing (default): PRAGMA INDEX_LIST(`Transaction`)
+22-05-06 22:54:29|debug|init.js: Executing (default): CREATE TABLE IF NOT EXISTS `Configuration` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `appliedAt` DATETIME, `configJSON` TEXT, `isActive` TINYINT(1), `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL);
+22-05-06 22:54:29|debug|init.js: Executing (default): PRAGMA INDEX_LIST(`Configuration`)
+22-05-06 22:54:31|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:54:31|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:54:31|info|dynamic-config.js: Configuration change detected! Reloading: {
+  "id": 1,
+  "appliedAt": "2022-05-06T19:03:41.295Z",
+  "configJSON": "{}",
+  "isActive": true,
+  "createdAt": "2022-05-06T19:03:41.297Z",
+  "updatedAt": "2022-05-06T19:03:41.297Z"
+}
+22-05-06 22:54:31|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:54:31|info|dynamic-config.js: Active configuration: {
+  "id": 1,
+  "appliedAt": "2022-05-06T19:03:41.295Z",
+  "configJSON": "{}",
+  "isActive": true,
+  "createdAt": "2022-05-06T19:03:41.297Z",
+  "updatedAt": "2022-05-06T19:03:41.297Z"
+}
+22-05-06 22:54:31|info|transaction-monitor.js: Handling config change. New transaction filters: undefined
+22-05-06 22:54:31|warn|transaction-monitor.js: Config is empty, do not expect any tracking in DB
+22-05-06 22:54:35|info|base-web3-provider.js: Added new block with hash: 0x973c0a7bd8f2d8dfa6346e9ab9c627550ee0bc725d56e32a14dc7f5889c1a47d
+22-05-06 22:54:37|info|transaction-monitor.js: Found 237 new transactions.
+22-05-06 22:54:37|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:54:41|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:54:41|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:54:51|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:54:51|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:55:01|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:55:01|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:55:03|info|base-web3-provider.js: Added new block with hash: 0x8be5afef26f02e6ea7a56c0eb0511faf1628a2e04bad2070e248cdbc7048835a
+22-05-06 22:55:03|info|transaction-monitor.js: Found 364 new transactions.
+22-05-06 22:55:03|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:55:08|info|base-web3-provider.js: Added new block with hash: 0x131477a8d52bd62413e19a0ec1cc36ebaf5bad2368cb3d72664804e7b3bcbf91
+22-05-06 22:55:08|info|transaction-monitor.js: Found 73 new transactions.
+22-05-06 22:55:08|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:55:11|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:55:11|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:55:14|info|base-web3-provider.js: Added new block with hash: 0x15bec7be5a9b39ea813db4ea1302694399645ca6d4417705ae532fb60bc0d440
+22-05-06 22:55:15|info|transaction-monitor.js: Found 61 new transactions.
+22-05-06 22:55:15|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:55:20|info|base-web3-provider.js: Added new block with hash: 0xfba820157c4bd3e0d34957d81547164d363846b44d65309cdb0cfe04dd75f71c
+22-05-06 22:55:20|info|transaction-monitor.js: Found 31 new transactions.
+22-05-06 22:55:20|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:55:21|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:55:21|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:55:31|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:55:31|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:55:32|info|base-web3-provider.js: Added new block with hash: 0x988aa54478bd2788c2ec9c46a616524b5bb9fafa8a049fbd9465e61d9232495c
+22-05-06 22:55:33|info|transaction-monitor.js: Found 199 new transactions.
+22-05-06 22:55:33|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:55:41|info|base-web3-provider.js: Added new block with hash: 0xcfa0e7b1eee45bf535139831f3f8f17d624cb53aac166cc9041acea9b18b8ba1
+22-05-06 22:55:41|info|transaction-monitor.js: Found 136 new transactions.
+22-05-06 22:55:41|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:55:41|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:55:41|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:55:45|info|base-web3-provider.js: Added new block with hash: 0xbdb70a692c35b53ba126ca68589d33a0bcf083dadd2f10a92a9c13355ee0552a
+22-05-06 22:55:45|info|transaction-monitor.js: Found 65 new transactions.
+22-05-06 22:55:45|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:55:51|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:55:51|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:56:00|info|base-web3-provider.js: Added new block with hash: 0xd0212cc2bcb32bdfff5b9656ade21c999dd0dc45c7c9acb9f864f5ced4148ee4
+22-05-06 22:56:00|info|transaction-monitor.js: Found 286 new transactions.
+22-05-06 22:56:00|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:56:01|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:56:01|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:56:06|info|base-web3-provider.js: Added new block with hash: 0x099b1189c673e4fe55e103e76dd9f9cbd9f16bc400deabad5066d98591de1555
+22-05-06 22:56:06|info|transaction-monitor.js: Found 92 new transactions.
+22-05-06 22:56:06|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:56:11|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:56:11|debug|init.js: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:56:16|info|base-web3-provider.js: Watching blocks with transactions ...
+22-05-06 22:56:16|info|dynamic-config.js: Scheduling config change detection mechanism.
+22-05-06 22:56:16|info|init.js: Initializing DB
+22-05-06 22:56:16|debug|Sequelize: Executing (default): CREATE TABLE IF NOT EXISTS `Transaction` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `hash` VARCHAR(255), `transactionIndex` NUMBER, `to` VARCHAR(255), `from` VARCHAR(255), `gas` NUMBER, `gasPrice` VARCHAR(255), `configurationId` NUMBER, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL);
+22-05-06 22:56:16|info|index.js: Worker is running
+22-05-06 22:56:16|debug|Sequelize: Executing (default): PRAGMA INDEX_LIST(`Transaction`)
+22-05-06 22:56:16|debug|Sequelize: Executing (default): CREATE TABLE IF NOT EXISTS `Configuration` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `appliedAt` DATETIME, `configJSON` TEXT, `isActive` TINYINT(1), `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL);
+22-05-06 22:56:16|debug|Sequelize: Executing (default): PRAGMA INDEX_LIST(`Configuration`)
+22-05-06 22:56:25|info|init.js: Initializing DB
+22-05-06 22:56:25|debug|Sequelize: Executing (default): CREATE TABLE IF NOT EXISTS `Transaction` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `hash` VARCHAR(255), `transactionIndex` NUMBER, `to` VARCHAR(255), `from` VARCHAR(255), `gas` NUMBER, `gasPrice` VARCHAR(255), `configurationId` NUMBER, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL);
+22-05-06 22:56:25|info|index.js: API Server is running on port 3000
+22-05-06 22:56:25|debug|Sequelize: Executing (default): PRAGMA INDEX_LIST(`Transaction`)
+22-05-06 22:56:25|debug|Sequelize: Executing (default): CREATE TABLE IF NOT EXISTS `Configuration` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `appliedAt` DATETIME, `configJSON` TEXT, `isActive` TINYINT(1), `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL);
+22-05-06 22:56:25|debug|Sequelize: Executing (default): PRAGMA INDEX_LIST(`Configuration`)
+22-05-06 22:56:26|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:56:26|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:56:26|info|dynamic-config.js: Configuration change detected! Reloading: {
+  "id": 1,
+  "appliedAt": "2022-05-06T19:03:41.295Z",
+  "configJSON": "{}",
+  "isActive": true,
+  "createdAt": "2022-05-06T19:03:41.297Z",
+  "updatedAt": "2022-05-06T19:03:41.297Z"
+}
+22-05-06 22:56:26|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:56:26|info|dynamic-config.js: Active configuration: {
+  "id": 1,
+  "appliedAt": "2022-05-06T19:03:41.295Z",
+  "configJSON": "{}",
+  "isActive": true,
+  "createdAt": "2022-05-06T19:03:41.297Z",
+  "updatedAt": "2022-05-06T19:03:41.297Z"
+}
+22-05-06 22:56:26|info|transaction-monitor.js: Handling config change. New transaction filters: undefined
+22-05-06 22:56:26|warn|transaction-monitor.js: Config is empty, do not expect any tracking in DB
+22-05-06 22:56:36|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:56:36|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:56:44|debug|Sequelize: Executing (default): INSERT INTO `Configuration` (`id`,`configJSON`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3);
+22-05-06 22:56:44|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:56:44|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`id` = 1;
+22-05-06 22:56:44|debug|Sequelize: Executing (default): UPDATE `Configuration` SET `isActive`=$1,`updatedAt`=$2 WHERE `id` = $3
+22-05-06 22:56:44|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`id` = 2;
+22-05-06 22:56:44|debug|Sequelize: Executing (default): UPDATE `Configuration` SET `isActive`=$1,`appliedAt`=$2,`updatedAt`=$3 WHERE `id` = $4
+22-05-06 22:56:46|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:56:46|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:56:46|info|dynamic-config.js: Configuration change detected! Reloading: {
+  "id": 2,
+  "appliedAt": "2022-05-06T19:56:44.966Z",
+  "configJSON": "{\"transactionFilters\":[{\"field\":\"to\",\"value\":\"0xc18360217d8f7ab5e7c516566761ea12ce7f9d72\",\"criteria\":\"equals\",\"matchCase\":false},{\"field\":\"to\",\"value\":\"0x7875c0Dd92be2d313c597136ABF0148682D39A53\",\"criteria\":\"equals\",\"matchCase\":true},{\"field\":\"gas\",\"value\":\"850000\",\"criteria\":\"above\"}]}",
+  "isActive": true,
+  "createdAt": "2022-05-06T19:56:44.949Z",
+  "updatedAt": "2022-05-06T19:56:44.968Z"
+}
+22-05-06 22:56:46|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:56:46|info|dynamic-config.js: Active configuration: {
+  "id": 2,
+  "appliedAt": "2022-05-06T19:56:44.966Z",
+  "configJSON": "{\"transactionFilters\":[{\"field\":\"to\",\"value\":\"0xc18360217d8f7ab5e7c516566761ea12ce7f9d72\",\"criteria\":\"equals\",\"matchCase\":false},{\"field\":\"to\",\"value\":\"0x7875c0Dd92be2d313c597136ABF0148682D39A53\",\"criteria\":\"equals\",\"matchCase\":true},{\"field\":\"gas\",\"value\":\"850000\",\"criteria\":\"above\"}]}",
+  "isActive": true,
+  "createdAt": "2022-05-06T19:56:44.949Z",
+  "updatedAt": "2022-05-06T19:56:44.968Z"
+}
+22-05-06 22:56:46|info|transaction-monitor.js: Handling config change. New transaction filters: [
+  {
+    "field": "to",
+    "value": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72",
+    "criteria": "equals",
+    "matchCase": false
+  },
+  {
+    "field": "to",
+    "value": "0x7875c0Dd92be2d313c597136ABF0148682D39A53",
+    "criteria": "equals",
+    "matchCase": true
+  },
+  {
+    "field": "gas",
+    "value": "850000",
+    "criteria": "above"
+  }
+]
+22-05-06 22:56:56|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:56:56|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:57:06|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:57:06|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:57:12|info|base-web3-provider.js: Added new block with hash: 0xde7cc9e3eef4c767625d81c8acc274f24eea45c5692539dfcfcea76311c33f00
+22-05-06 22:57:14|info|transaction-monitor.js: Found 341 new transactions.
+22-05-06 22:57:14|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 22:57:14|info|transaction-monitor.js: Adding 8 transactions.
+22-05-06 22:57:14|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 22:57:14|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 22:57:14|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 22:57:14|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 22:57:14|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 22:57:14|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 22:57:14|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 22:57:16|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:57:16|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:57:19|info|base-web3-provider.js: Added new block with hash: 0x24155ee83b0caa63cc6920533c01c07f80c31efe570d1e49e41546425a6b0efd
+22-05-06 22:57:19|info|base-web3-provider.js: Added new block with hash: 0x08e85ad8db2ba851762c16c796df00f08e0679bc24fec6e6b1c32367be421513
+22-05-06 22:57:20|info|transaction-monitor.js: Found 305 new transactions.
+22-05-06 22:57:20|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 22:57:20|info|transaction-monitor.js: Adding 5 transactions.
+22-05-06 22:57:20|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 22:57:20|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 22:57:20|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 22:57:20|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 22:57:20|info|transaction-monitor.js: Found 114 new transactions.
+22-05-06 22:57:20|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 22:57:20|info|transaction-monitor.js: Adding 2 transactions.
+22-05-06 22:57:20|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 22:57:26|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:57:26|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:57:29|info|base-web3-provider.js: Added new block with hash: 0xe6a8363830f50a4ffbbac9f3e18543ef0d912ffcf822238bd44791cd369b15c5
+22-05-06 22:57:29|info|transaction-monitor.js: Found 65 new transactions.
+22-05-06 22:57:29|error|base-web3-provider.js: undefined
+22-05-06 22:57:36|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:57:36|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:57:46|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:57:46|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:57:54|info|base-web3-provider.js: Added new block with hash: 0x19a772e1bb115d611e7a52174982c65081d66262357e0ade230f2c3c2088b706
+22-05-06 22:57:54|info|transaction-monitor.js: Found 241 new transactions.
+22-05-06 22:57:54|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 22:57:54|info|transaction-monitor.js: Adding 4 transactions.
+22-05-06 22:57:54|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 22:57:54|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 22:57:54|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 22:57:56|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:57:56|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:58:01|info|base-web3-provider.js: Added new block with hash: 0x2a4a5071e2de033ae416645bcdad2594c33a96d720b55bb2765287ce8d48d980
+22-05-06 22:58:01|info|transaction-monitor.js: Found 58 new transactions.
+22-05-06 22:58:01|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:58:06|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:58:06|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:58:16|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:58:16|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:58:26|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:58:26|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:58:35|info|base-web3-provider.js: Added new block with hash: 0x2454bc90860918fc99b8f1a065a0d8f68368cf118818fc0399bafe9f028c4c0e
+22-05-06 22:58:35|info|base-web3-provider.js: Added new block with hash: 0xa3623dcb029e684639161bb47fc454f9466bb03eb238052b971a47e05987b34e
+22-05-06 22:58:35|info|transaction-monitor.js: Found 28 new transactions.
+22-05-06 22:58:35|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 22:58:35|info|transaction-monitor.js: Found 335 new transactions.
+22-05-06 22:58:35|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 22:58:35|info|transaction-monitor.js: Adding 3 transactions.
+22-05-06 22:58:35|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 22:58:35|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 22:58:36|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:58:36|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:58:46|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:58:46|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:58:56|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:58:56|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:59:06|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:59:06|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:59:13|info|base-web3-provider.js: Added new block with hash: 0x7aaf8c8c3a736f98252d8f5b3114d64b501d54063f0eeab3d62fe03c108104b3
+22-05-06 22:59:14|info|transaction-monitor.js: Found 317 new transactions.
+22-05-06 22:59:14|error|base-web3-provider.js: undefined
+22-05-06 22:59:16|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:59:16|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:59:19|info|base-web3-provider.js: Added new block with hash: 0x27bf0245480ffc126cb720bb4b3d117f37a72a09ca2b82d9d0c2cbe1bb687799
+22-05-06 22:59:19|info|transaction-monitor.js: Found 65 new transactions.
+22-05-06 22:59:19|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 22:59:19|info|transaction-monitor.js: Adding 1 transactions.
+22-05-06 22:59:26|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:59:26|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:59:36|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:59:36|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:59:46|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:59:46|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 22:59:46|info|base-web3-provider.js: Added new block with hash: 0x9e35938eaf330e819d38ff5e4b46869932333b39ac0f8e592b75f308b34525e5
+22-05-06 22:59:47|info|transaction-monitor.js: Found 289 new transactions.
+22-05-06 22:59:47|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 22:59:47|info|transaction-monitor.js: Adding 3 transactions.
+22-05-06 22:59:47|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 22:59:47|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 22:59:56|info|dynamic-config.js: Checking for config changes...
+22-05-06 22:59:56|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 23:00:01|info|base-web3-provider.js: Added new block with hash: 0xbe22f816fc0ecfe3190dfe1166a76a9cdbc1c1b9050b6bd26e634a1a608ff834
+22-05-06 23:00:01|info|transaction-monitor.js: Found 206 new transactions.
+22-05-06 23:00:01|error|base-web3-provider.js: undefined
+22-05-06 23:00:04|info|base-web3-provider.js: Added new block with hash: 0x735658b283b50390b0a6e3b45bc26bc1604c47505f99b512d13ac66224d3352d
+22-05-06 23:00:04|info|transaction-monitor.js: Found 30 new transactions.
+22-05-06 23:00:04|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 23:00:04|info|transaction-monitor.js: Adding 1 transactions.
+22-05-06 23:00:06|info|dynamic-config.js: Checking for config changes...
+22-05-06 23:00:06|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 23:00:16|info|dynamic-config.js: Checking for config changes...
+22-05-06 23:00:16|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 23:00:26|info|dynamic-config.js: Checking for config changes...
+22-05-06 23:00:26|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 23:00:32|info|base-web3-provider.js: Added new block with hash: 0xa00e4cb55bfcd25c76d3be89ed9e4f697d674bc8acd31265ad253cb5ec0393dc
+22-05-06 23:00:32|info|transaction-monitor.js: Found 419 new transactions.
+22-05-06 23:00:32|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 23:00:32|info|transaction-monitor.js: Adding 6 transactions.
+22-05-06 23:00:32|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 23:00:32|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 23:00:32|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 23:00:32|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 23:00:32|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 23:00:35|info|base-web3-provider.js: Added new block with hash: 0x9f6533a394bc02c107100632e770ad187a96acd20d57a3b25cac59af007a8840
+22-05-06 23:00:35|info|transaction-monitor.js: Found 37 new transactions.
+22-05-06 23:00:35|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 23:00:36|info|dynamic-config.js: Checking for config changes...
+22-05-06 23:00:36|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 23:00:38|info|base-web3-provider.js: Added new block with hash: 0x15a44101923847c5dffa95839368f97456126041b6e22267eb048c7123b92d00
+22-05-06 23:00:38|info|transaction-monitor.js: Found 142 new transactions.
+22-05-06 23:00:38|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 23:00:38|info|transaction-monitor.js: Adding 8 transactions.
+22-05-06 23:00:38|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 23:00:38|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 23:00:38|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 23:00:38|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 23:00:38|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 23:00:38|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 23:00:38|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 23:00:44|info|base-web3-provider.js: Added new block with hash: 0x1f8086f1d8eb4f73ba9494bd1abdc99271b5bc36d6a7f15189d7de8d550e1595
+22-05-06 23:00:44|info|transaction-monitor.js: Found 118 new transactions.
+22-05-06 23:00:44|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 23:00:44|info|transaction-monitor.js: Adding 3 transactions.
+22-05-06 23:00:44|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 23:00:44|debug|Sequelize: Executing (default): INSERT INTO `Transaction` (`id`,`hash`,`transactionIndex`,`to`,`from`,`gas`,`gasPrice`,`configurationId`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5,$6,$7,$8,$9);
+22-05-06 23:00:46|info|dynamic-config.js: Checking for config changes...
+22-05-06 23:00:46|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 23:00:56|info|dynamic-config.js: Checking for config changes...
+22-05-06 23:00:56|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 23:01:04|error|base-web3-provider.js: uncaughtException: Cannot find module '../../config/app-config'
+Require stack:
+- /Users/tbozhikov/Documents/work/NX/src/config/dynamic-config.js
+- /Users/tbozhikov/Documents/work/NX/src/worker/transaction-monitor.js
+- /Users/tbozhikov/Documents/work/NX/src/worker/index.js
+Error: Cannot find module '../../config/app-config'
+Require stack:
+- /Users/tbozhikov/Documents/work/NX/src/config/dynamic-config.js
+- /Users/tbozhikov/Documents/work/NX/src/worker/transaction-monitor.js
+- /Users/tbozhikov/Documents/work/NX/src/worker/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:982:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:864:27)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/Users/tbozhikov/Documents/work/NX/src/config/dynamic-config.js:4:27)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/Users/tbozhikov/Documents/work/NX/src/worker/transaction-monitor.js:4:23)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+22-05-06 23:01:41|info|base-web3-provider.js: Watching blocks with transactions ...
+22-05-06 23:01:41|info|dynamic-config.js: Scheduling config change detection mechanism. (each 10000 milliseconds)
+22-05-06 23:01:41|info|init.js: Initializing DB
+22-05-06 23:01:41|debug|Sequelize: Executing (default): CREATE TABLE IF NOT EXISTS `Transaction` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `hash` VARCHAR(255), `transactionIndex` NUMBER, `to` VARCHAR(255), `from` VARCHAR(255), `gas` NUMBER, `gasPrice` VARCHAR(255), `configurationId` NUMBER, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL);
+22-05-06 23:01:41|info|index.js: Worker is running
+22-05-06 23:01:41|debug|Sequelize: Executing (default): PRAGMA INDEX_LIST(`Transaction`)
+22-05-06 23:01:41|debug|Sequelize: Executing (default): CREATE TABLE IF NOT EXISTS `Configuration` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `appliedAt` DATETIME, `configJSON` TEXT, `isActive` TINYINT(1), `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL);
+22-05-06 23:01:41|debug|Sequelize: Executing (default): PRAGMA INDEX_LIST(`Configuration`)
+22-05-06 23:01:48|info|base-web3-provider.js: Added new block with hash: 0xcdbe354ae5406b9fcd91a1bfe6ad49b896a481e4424e72c56d99083cebf366fb
+22-05-06 23:01:49|info|transaction-monitor.js: Found 247 new transactions.
+22-05-06 23:01:49|info|transaction-monitor.js: Adding 0 transactions.
+22-05-06 23:01:51|info|dynamic-config.js: Checking for config changes...
+22-05-06 23:01:51|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 23:01:51|info|dynamic-config.js: Configuration change detected! Reloading: {
+  "id": 2,
+  "appliedAt": "2022-05-06T19:56:44.966Z",
+  "configJSON": "{\"transactionFilters\":[{\"field\":\"to\",\"value\":\"0xc18360217d8f7ab5e7c516566761ea12ce7f9d72\",\"criteria\":\"equals\",\"matchCase\":false},{\"field\":\"to\",\"value\":\"0x7875c0Dd92be2d313c597136ABF0148682D39A53\",\"criteria\":\"equals\",\"matchCase\":true},{\"field\":\"gas\",\"value\":\"850000\",\"criteria\":\"above\"}]}",
+  "isActive": true,
+  "createdAt": "2022-05-06T19:56:44.949Z",
+  "updatedAt": "2022-05-06T19:56:44.968Z"
+}
+22-05-06 23:01:51|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 23:01:51|info|dynamic-config.js: Active configuration: {
+  "id": 2,
+  "appliedAt": "2022-05-06T19:56:44.966Z",
+  "configJSON": "{\"transactionFilters\":[{\"field\":\"to\",\"value\":\"0xc18360217d8f7ab5e7c516566761ea12ce7f9d72\",\"criteria\":\"equals\",\"matchCase\":false},{\"field\":\"to\",\"value\":\"0x7875c0Dd92be2d313c597136ABF0148682D39A53\",\"criteria\":\"equals\",\"matchCase\":true},{\"field\":\"gas\",\"value\":\"850000\",\"criteria\":\"above\"}]}",
+  "isActive": true,
+  "createdAt": "2022-05-06T19:56:44.949Z",
+  "updatedAt": "2022-05-06T19:56:44.968Z"
+}
+22-05-06 23:01:51|info|transaction-monitor.js: Handling config change. New transaction filters: [
+  {
+    "field": "to",
+    "value": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72",
+    "criteria": "equals",
+    "matchCase": false
+  },
+  {
+    "field": "to",
+    "value": "0x7875c0Dd92be2d313c597136ABF0148682D39A53",
+    "criteria": "equals",
+    "matchCase": true
+  },
+  {
+    "field": "gas",
+    "value": "850000",
+    "criteria": "above"
+  }
+]
+22-05-06 23:02:01|info|dynamic-config.js: Checking for config changes...
+22-05-06 23:02:01|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 23:02:11|info|dynamic-config.js: Checking for config changes...
+22-05-06 23:02:11|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;
+22-05-06 23:02:21|info|dynamic-config.js: Checking for config changes...
+22-05-06 23:02:21|debug|Sequelize: Executing (default): SELECT `id`, `appliedAt`, `configJSON`, `isActive`, `createdAt`, `updatedAt` FROM `Configuration` AS `configuration` WHERE `configuration`.`isActive` = 1 LIMIT 1;

@@ -7,5 +7,17 @@
     "db": {
         "type": "sqlite",
         "path": "src/db/database.sqlite"
+    },
+    "logging": {
+        "file": {
+            "path": "./logs/api.log",
+            "level": "debug"
+        },
+        "console": {
+            "level": "debug"
+        }
+    },
+    "dynamicConfig": {
+        "refreshInterval": 10000
     }
 }

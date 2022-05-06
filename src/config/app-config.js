@@ -6,6 +6,10 @@ class ApplicationConfig {
     infuraHTTPEndpoint;
     dbPath;
     dbType;
+    loggingFileLevel;
+    loggingFilePath;
+    loggingConsoleLevel;
+    dynamicConfigRefreshInterval;
 
     constructor() {
         this.infuraProjectId = config.get('infura.projectId');
@@ -13,7 +17,10 @@ class ApplicationConfig {
         this.infuraHTTPEndpoint = config.get('infura.httpEndpoint');
         this.dbType = config.get('db.type');
         this.dbPath = config.get('db.path');
-        this.dbType = config.get('db.type');
+        this.loggingFileLevel = config.get('logging.file.level');
+        this.loggingFilePath = config.get('logging.file.path');
+        this.loggingConsoleLevel = config.get('logging.console.level');
+        this.dynamicConfigRefreshInterval = config.get('dynamicConfig.refreshInterval');
     }
 }
 

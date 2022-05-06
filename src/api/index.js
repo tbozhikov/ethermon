@@ -1,6 +1,8 @@
 const express = require('express');
 const initDatabase = require('../db/init');
 const ConfigurationRepository = require('../data/repository/configuration-repository');
+const LoggerService = require('../logging/logger-service');
+const logger = LoggerService.getLogger(__filename.split("/").pop());
 
 const startAPIServer = () => {
     initDatabase();
@@ -8,7 +10,7 @@ const startAPIServer = () => {
     app.use(express.json());
 
     const server = app.listen(3000, () => {
-        console.log("API Server is running on port 3000");
+        logger.info("API Server is running on port 3000");
     });
 
 
@@ -71,9 +73,7 @@ const startAPIServer = () => {
     });
 
     let errorHandler = function (err) {
-        console.log('**************************');
-        console.log('* [process.on(uncaughtException)]: err:', err);
-        console.log('**************************');
+        logger.err('process.on(uncaughtException): err:' + err);
 
         process.removeListener('uncaughtException', errorHandler);
         server.close();

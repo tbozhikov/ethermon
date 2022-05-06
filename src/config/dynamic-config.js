@@ -1,6 +1,8 @@
 const EventEmitter = require('events');
 const ConfigurationRepository = require('../data/repository/configuration-repository');
-
+const LoggerService = require('../logging/logger-service');
+const applicationConfig = require('./app-config');
+const logger = LoggerService.getLogger(__filename.split("/").pop());
 class DynamicConfig {
     activeConfigRecord;
     activeConfig;
@@ -15,20 +17,20 @@ class DynamicConfig {
     }
 
     async scheduleChangeDetection() {
-        console.log(`Scheduling config change detection mechanism.`);
-
+        logger.info(`Scheduling config change detection mechanism. (each ${applicationConfig.dynamicConfigRefreshInterval} milliseconds)`);
         setInterval(async () => {
             try {
-                console.log(`Checking for config changes...`);
+                logger.info(`Checking for config changes...`);
                 const active = await this.configurationRepository.getActive();
                 if (!this.activeConfigRecord || active.id !== this.activeConfigRecord.id || active.appliedAt.toISOString() != this.activeConfigRecord.appliedAt.toISOString()) {
-                    console.log(`Configuration change detected! Reloading: ${JSON.stringify(active, null, 2)}`);
+                    logger.info(`Configuration change detected! Reloading: ${JSON.stringify(active, null, 2)}`);
+                    
                     await this.refreshActiveConfig();
                 }
             } catch (err) {
-                console.log(`Error while checking/applying new configs: ${JSON.stringify(err)}`);
+                logger.info(`Error while checking/applying new configs: ${JSON.stringify(err)}`);
             }
-        }, 10000);
+        }, applicationConfig.dynamicConfigRefreshInterval);
     }
 
     async initActiveConfig() {
@@ -53,7 +55,7 @@ class DynamicConfig {
             activeConfigurationRecord = await this.initActiveConfig();
         }
 
-        console.log(`Active configuration: ${JSON.stringify(activeConfigurationRecord, null, 2)}`);
+        logger.info(`Active configuration: ${JSON.stringify(activeConfigurationRecord, null, 2)}`);
 
         this.activeConfig = JSON.parse(activeConfigurationRecord.configJSON);
 
