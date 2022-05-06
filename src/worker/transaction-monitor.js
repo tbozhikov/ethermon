@@ -1,6 +1,6 @@
 const InfuraProvider = require("./ethereum-provider/infura-provider");
-const dynamicConfig = require("../config/dynamic-config");
 const TransactionRepository = require('../data/transaction-repository');
+const dynamicConfig = require("../config/dynamic-config");
 
 class TransactionMonitor {
     transactionFiltersMap;
@@ -8,16 +8,21 @@ class TransactionMonitor {
 
     constructor(projectId) {
         this.provider = new InfuraProvider(projectId);
-        dynamicConfig.configChanged((newConfig) => { this.onConfigChanged(newConfig); });
         this.transactionRepository = new TransactionRepository();
+        dynamicConfig.configChanged((newConfig) => { this.onConfigChanged(newConfig); });
     }
 
     onConfigChanged(newConfig) {
         console.log(`[Config change] New transaction filters: ${JSON.stringify(newConfig.transactionFilters, null, 2)}`);
 
+        /**
+         * build a map of <key: string, value: Array<any>>, where:
+         * key: is the property name
+         * value: the filters by which we should filter on the property name
+         * */ 
         const filtersMap = new Map();
         newConfig.transactionFilters.forEach((f) => {
-            if (filtersMap.has(f.field)) {
+            if (filtersMap.has(f.field)) { // if filter by the same property exists, add to map
                 const existing = filtersMap.get(f.field);
                 filtersMap.set(f.field, [...existing, f])
             } else {
@@ -70,7 +75,6 @@ class TransactionMonitor {
             });
 
             console.log(`Adding ${filtered.length} transactions.`)
-            // console.log(`Transactions: ${JSON.stringify(filtered)}`)
 
             filtered.forEach(tx => this.transactionRepository.create({ ...tx, configurationId: dynamicConfig.activeConfigRecord.id }));
         });

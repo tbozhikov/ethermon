@@ -2,9 +2,11 @@ const { Sequelize, Model, DataTypes } = require('sequelize');
 const Transaction = require("../data/models/transaction");
 const Configuration = require("../data/models/configuration");
 const dynamicConfig = require("../config/dynamic-config");
+const appConfig = require("../config/app-config");
+
 const sequelize = new Sequelize({
-    dialect: 'sqlite',
-    storage: 'src/db/database.sqlite'
+    dialect: appConfig.dbType,
+    storage: appConfig.dbPath
 });
 function initDatabaseConnection() {
     console.log("Initializing DB");
@@ -27,8 +29,6 @@ function initDatabaseConnection() {
     (async () => {
         await sequelize.sync();
         await dynamicConfig.refreshActiveConfig();
-
-        console.log(await Configuration.findAll());
     })();
 }
 

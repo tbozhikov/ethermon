@@ -1,4 +1,3 @@
-const config = require("config");
 const EventEmitter = require('events');
 const ConfigurationRepository = require("../data/configuration-repository");
 
@@ -60,7 +59,6 @@ class DynamicConfig {
 
         if (!this.activeConfigRecord || this.activeConfigRecord.id !== activeConfigurationRecord.id) {
             this.activeConfigRecord = activeConfigurationRecord;
-            console.log(`Emitting configChanged with args: ${JSON.stringify(this.activeConfig, null, 2)}`)
             this.eventEmitter.emit("configChanged", this.activeConfig);
         }
     }
@@ -81,10 +79,7 @@ class DynamicConfig {
                 "field": "gas",
                 "value": "21000",
                 "criteria": "above"
-            }],
-            dbConfiguration: {
-                "filename": "database.sqlite"
-            }
+            }]
         };
     }
 }
