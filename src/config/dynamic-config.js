@@ -43,7 +43,7 @@ class DynamicConfig {
             });
         } else {
             configurationRecord = await this.configurationRepository.getMostRecentlyApplied();
-            await this.configurationRepository.update(configurationRecord.id, { isActive: true })
+            await this.configurationRepository.update(configurationRecord.id, { isActive: true });
         }
 
         return configurationRecord;

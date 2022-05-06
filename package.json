@@ -4,8 +4,8 @@
   "description": "A ruling system that monitors and watches all Ethereum transactions and store them in a DB, in case they pass through the configured filter",
   "main": "index.js",
   "scripts": {
-    "start-api": "NODE_CONFIG_DIR=./src/config NODE_ENV=api-staging node ./src/api/index.js",
-    "start-worker": "NODE_CONFIG_DIR=./src/config NODE_ENV=worker-staging node ./src/worker/index.js",
+    "start-api": "NODE_CONFIG_DIR=./src/api NODE_ENV=api-staging node ./src/api/index.js",
+    "start-worker": "NODE_CONFIG_DIR=./src/worker NODE_ENV=worker-staging node ./src/worker/index.js",
     "npm-rebuild": "npm rebuild",
     "start-all": "npm run start-worker && npm run start-api"
   },
