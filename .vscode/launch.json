@@ -11,8 +11,12 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "preLaunchTask":"npm: npm-rebuild",
-            "program": "${workspaceFolder}/src/worker/index.js"
+            "preLaunchTask": "npm: npm-rebuild",
+            "program": "${workspaceFolder}/src/worker/index.js",
+            "env": {
+                "NODE_CONFIG_DIR": "./src/config",
+                "NODE_ENV": "staging"
+            }
         },
         {
             "type": "pwa-node",
@@ -21,8 +25,12 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "preLaunchTask":"npm: npm-rebuild",
-            "program": "${workspaceFolder}/src/api/index.js"
+            "preLaunchTask": "npm: npm-rebuild",
+            "program": "${workspaceFolder}/src/api/index.js",
+            "env": {
+                "NODE_CONFIG_DIR": "./src/config",
+                "NODE_ENV": "staging"
+            }
         }
     ]
 }

@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start-dev": "node ./src/worker/index.js && node ./src/api/index.js",
-    "start-api": "node ./src/api/index.js",
-    "start-worker": "NODE_CONFIG_DIR=./src/config NODE_ENV=production node ./src/worker/index.js",
+    "start-api": "NODE_CONFIG_DIR=./src/config NODE_ENV=staging node ./src/api/index.js",
+    "start-worker": "NODE_CONFIG_DIR=./src/config NODE_ENV=staging node ./src/worker/index.js",
     "npm-rebuild": "npm rebuild"
   },
   "author": "Teodor Bozhikov",

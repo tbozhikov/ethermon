@@ -1,9 +1,0 @@
-{
-    "infura": {
-        "projectId": "0fed95ec59b547548116076c5f563adf"
-    },
-    "db": {
-        "type": "sqlite",
-        "path": "src/db/database.sqlite"
-    }
-}

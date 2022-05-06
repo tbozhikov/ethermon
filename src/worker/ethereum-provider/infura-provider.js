@@ -1,11 +1,12 @@
 const BaseWeb3Provider = require("./base-web3-provider");
+const applicationConfig = require('../../config/app-config');
 
 class InfuraProvider extends BaseWeb3Provider {
     newBlockSubscription;
 
-    constructor(projectId) {
-        super(projectId, "wss://mainnet.infura.io/ws/v3", "https://mainnet.infura.io/v3");
+    constructor() {
+        super(`${applicationConfig.infuraWebSocketEndpoint}/${applicationConfig.infuraProjectId}`, `${applicationConfig.infuraHTTPEndpoint}/${applicationConfig.infuraProjectId}`);
     }
 }
 
-module.exports = InfuraProvider
+module.exports = InfuraProvider;

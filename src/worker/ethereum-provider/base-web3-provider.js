@@ -6,10 +6,10 @@ class BaseWeb3Provider extends BaseProvider {
     wsUrl;
     httpUrl;
 
-    constructor(projectId, wsUrl, httpUrl) {
+    constructor(wsUrl, httpUrl) {
         super();
-        this.web3ws = new Web3(new Web3.providers.WebsocketProvider(`${wsUrl}/${projectId}`))
-        this.web3 = new Web3(new Web3.providers.HttpProvider(`${httpUrl}/${projectId}`))
+        this.web3ws = new Web3(new Web3.providers.WebsocketProvider(wsUrl))
+        this.web3 = new Web3(new Web3.providers.HttpProvider(httpUrl))
     }
 
     watchBlocks(callback) {

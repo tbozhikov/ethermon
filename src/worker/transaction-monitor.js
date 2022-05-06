@@ -6,8 +6,8 @@ class TransactionMonitor {
     transactionFiltersMap;
     transactionRepository;
 
-    constructor(projectId) {
-        this.provider = new InfuraProvider(projectId);
+    constructor() {
+        this.provider = new InfuraProvider();
         this.transactionRepository = new TransactionRepository();
         dynamicConfig.configChanged((newConfig) => { this.onConfigChanged(newConfig); });
     }

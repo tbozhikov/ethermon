@@ -6,5 +6,5 @@ console.log("Worker is running");
 
 initDatabase();
 
-let txMonitor = new TransactionMonitor(applicationConfig.projectId);
+let txMonitor = new TransactionMonitor();
 txMonitor.watchBlocks();
