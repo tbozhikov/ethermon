@@ -50,6 +50,12 @@ curl --location --request POST 'localhost:3000/api/configuration' \
 ```
 
 6. Observe the console output or logs of the **worker** - it should hot-reload the configuration and begin storing transactions satisfied by these filters.
+
+7. Observe the transactions being persisted in DB either using SQL queries/sqllite viewer or using this helper endpoint available in the API Server:
+```
+curl --location --request GET 'localhost:3000/api/transactions'
+```
+
 ## Prerequisites
 - NodeJS v12.16.1
 

@@ -1,6 +1,7 @@
 const express = require('express');
 const initDatabase = require('../db/init');
 const ConfigurationRepository = require('../data/repository/configuration-repository');
+const TransactionRepository = require('../data/repository/transaction-repository');
 const LoggerService = require('../logging/logger-service');
 const logger = LoggerService.getLogger(__filename.split("/").pop());
 
@@ -72,8 +73,15 @@ const startAPIServer = () => {
         res.sendStatus(200);
     });
 
+    // READ all Transactions
+    app.get("/api/transactions", async (req, res, next) => {
+        const transactionRepository = new TransactionRepository();
+
+        res.json(await transactionRepository.getAll());
+    });
+
     let errorHandler = function (err) {
-        logger.err('process.on(uncaughtException): err:' + err);
+        logger.error('process.on(uncaughtException): err:' + err);
 
         process.removeListener('uncaughtException', errorHandler);
         server.close();
