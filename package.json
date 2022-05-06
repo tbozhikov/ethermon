@@ -7,7 +7,7 @@
     "start-api": "NODE_CONFIG_DIR=./src/api NODE_ENV=api-staging node ./src/api/index.js",
     "start-worker": "NODE_CONFIG_DIR=./src/worker NODE_ENV=worker-staging node ./src/worker/index.js",
     "npm-rebuild": "npm rebuild",
-    "start-all": "npm run start-worker && npm run start-api"
+    "start-all": "npm-run-all -p -r start-worker start-api"
   },
   "author": "Teodor Bozhikov",
   "license": "ISC",
@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "config": "^3.3.7",
+    "npm-run-all": "^4.1.5",
     "sqlite3": "^5.0.7"
   }
 }

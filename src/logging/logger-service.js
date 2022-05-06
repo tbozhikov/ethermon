@@ -32,9 +32,9 @@ class LoggerService {
                     )
                 }),
                 new winston.transports.File({
-                    level: 'debug',
+                    level: applicationConfig.loggingFileLevel,
                     handleExceptions: true,
-                    filename: `./logs/app.log`,
+                    filename: applicationConfig.loggingFilePath,
                     maxsize: MAX_SIZE_IN_BYTES,
                     format: winston.format.combine(
                         winston.format.timestamp({

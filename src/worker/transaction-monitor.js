@@ -33,7 +33,7 @@ class TransactionMonitor {
                 }
             })
         } else {
-            logger.warn("Config is empty, do not expect any tracking in DB")
+            logger.warn("Config is empty, do not expect any tracking and persisting in DB")
         }
 
         this.transactionFiltersMap = filtersMap;
