@@ -10,7 +10,6 @@ function initDatabaseConnection() {
     console.log("Initializing DB");
     Transaction.init({
         hash: DataTypes.STRING,
-        blockhHash: DataTypes.STRING,
         transactionIndex: DataTypes.NUMBER,
         to: DataTypes.STRING,
         from: DataTypes.STRING,

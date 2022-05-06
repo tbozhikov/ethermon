@@ -8,6 +8,23 @@ class ConfigurationRepository extends BaseRepository {
         this.model = Configuration;
     }
 
+    /**
+     * Sets the configuration with given id as active, 
+     * while deactivating the current active one
+     * @param {number} id 
+     */
+    async setActive(id) {
+        const currentActive = await this.getActive();
+        await this.update(currentActive.id,
+            {
+                isActive: false
+            });
+        await this.update(id, {
+            isActive: true,
+            appliedAt: Date.now()
+        });
+    }
+
     async getActive() {
         const active = await this.model.findOne({
             where: {

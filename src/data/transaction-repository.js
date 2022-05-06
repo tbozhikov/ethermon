@@ -1,8 +1,7 @@
-const { Sequelize, Model, DataTypes } = require("sequelize");
 const BaseRepository = require("./base-repository");
 const Transaction = require("./models/transaction");
 
-class TransactionRepository extends BaseRepository{
+class TransactionRepository extends BaseRepository {
     constructor() {
         super();
 

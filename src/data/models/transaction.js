@@ -1,8 +1,5 @@
 const { Model } = require('sequelize');
 
-class Transaction extends Model {
-    to;
-    from;
-}
+class Transaction extends Model { }
 
 module.exports = Transaction;

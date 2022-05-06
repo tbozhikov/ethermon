@@ -7,12 +7,22 @@
         {
             "type": "pwa-node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "Launch Worker",
             "skipFiles": [
                 "<node_internals>/**"
             ],
             "preLaunchTask":"npm: npm-rebuild",
             "program": "${workspaceFolder}/src/worker/index.js"
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Launch API",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "preLaunchTask":"npm: npm-rebuild",
+            "program": "${workspaceFolder}/src/api/index.js"
         }
     ]
 }

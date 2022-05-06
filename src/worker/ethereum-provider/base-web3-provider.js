@@ -19,12 +19,10 @@ class BaseWeb3Provider extends BaseProvider {
             if (err) {
                 console.log(err);
             }
-
-            console.log(res)
         })
 
         this.newBlockSubscription.on("data", async (blockHeader) => {
-            console.log(`New block: ${JSON.stringify(blockHeader, null, 2)}`)
+            console.log(`Added new block with hash: ${blockHeader.hash}`)
 
             try {
                 let block = await this.web3.eth.getBlock(blockHeader.hash, true);

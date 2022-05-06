@@ -1,8 +1,4 @@
 class BaseRepository {
-  constructor() {
-
-  }
-
   async count() {
     return await this.model.count();
   }
@@ -16,24 +12,29 @@ class BaseRepository {
     const modified = Object.assign(item, updatedItem);
 
     await modified.save();
+
+    return modified;
   }
 
   async delete(id) {
-    this.model.destroy({
+    await this.model.destroy({
       where: {
         id: id
       }
     });
-
-    this.model.delete()
   }
+
   async getById(id) {
     return await this.model.findOne({
-        where: {
-            id: id,
-        },
+      where: {
+        id: id,
+      },
     })
-}
+  }
+
+  async getAll(id) {
+    return await this.model.findAll();
+  }
 }
 
 module.exports = BaseRepository;

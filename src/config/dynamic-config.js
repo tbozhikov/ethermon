@@ -1,30 +1,35 @@
 const config = require("config");
 const EventEmitter = require('events');
-const Configuration = require("../data/models/configuration");
 const ConfigurationRepository = require("../data/configuration-repository");
 
 class DynamicConfig {
     activeConfigRecord;
     activeConfig;
-    // transactionsFilter;
-    // dbConfiguration;
     eventEmitter;
     configurationRepository;
 
     constructor() {
         this.eventEmitter = new EventEmitter();
         this.configurationRepository = new ConfigurationRepository();
-        // this.refreshActiveConfig();
+
+        this.scheduleChangeDetection();
     }
 
-    async updateConfig(config) {
-        this.configurationRepository.create({
-            appliedAt: Date.now(),
-            configJSON: JSON.stringify(config || dynamicConfig.getDefault()),
-            isActive: true
-        });
+    async scheduleChangeDetection() {
+        console.log(`Scheduling config change detection mechanism.`);
 
-        await this.refreshActiveConfig();
+        setInterval(async () => {
+            try {
+                console.log(`Checking for config changes...`);
+                const active = await this.configurationRepository.getActive();
+                if (!this.activeConfigRecord || active.id !== this.activeConfigRecord.id || active.appliedAt.toISOString() != this.activeConfigRecord.appliedAt.toISOString()) {
+                    console.log(`Configuration change detected! Reloading: ${JSON.stringify(active, null, 2)}`);
+                    await this.refreshActiveConfig();
+                }
+            } catch (err) {
+                console.log(`Error while checking/applying new configs: ${JSON.stringify(err)}`);
+            }
+        }, 10000);
     }
 
     async initActiveConfig() {
@@ -45,19 +50,17 @@ class DynamicConfig {
 
     async refreshActiveConfig() {
         let activeConfigurationRecord = await this.configurationRepository.getActive();
-        console.log(`[DynamicConifg] got active: ${JSON.stringify(activeConfigurationRecord)}`);
         if (!activeConfigurationRecord) {
             activeConfigurationRecord = await this.initActiveConfig();
         }
 
-        console.log("activeConfigurationRecord: ")
-        console.log(JSON.stringify(activeConfigurationRecord, null, 2));
+        console.log(`Active configuration: ${JSON.stringify(activeConfigurationRecord, null, 2)}`);
 
         this.activeConfig = JSON.parse(activeConfigurationRecord.configJSON);
 
         if (!this.activeConfigRecord || this.activeConfigRecord.id !== activeConfigurationRecord.id) {
             this.activeConfigRecord = activeConfigurationRecord;
-            console.log(`Emitting configChanged with args: ${JSON.stringify(this.activeConfig)}`)
+            console.log(`Emitting configChanged with args: ${JSON.stringify(this.activeConfig, null, 2)}`)
             this.eventEmitter.emit("configChanged", this.activeConfig);
         }
     }
