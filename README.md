@@ -80,9 +80,9 @@ The supported filter properties are as follows:
 
 ### Application configuration
 
-For both **worker** and **API Server** nodes, app configs gan be tweaked in:
+For both **worker** and **API Server** nodes app configs can be tweaked in:
 - For the worker: ./worker/transaction-monitor.js
-- For the API Server ./api/api-staging.json
+- For the API Server: ./api/api-staging.json
 
 ## Improvement areas
 - Use MoM solution (RabbitMQ, Kafka etc.) for change detection of configuration (instead of current `scheduleChangeDetection` mechanism using timer)
