@@ -1,5 +1,5 @@
-const BaseRepository = require("./base-repository");
-const Transaction = require("./models/transaction");
+const BaseRepository = require('./base-repository');
+const Transaction = require('../models/transaction');
 
 class TransactionRepository extends BaseRepository {
     constructor() {

@@ -1,6 +1,6 @@
-const InfuraProvider = require("./ethereum-provider/infura-provider");
-const TransactionRepository = require('../data/transaction-repository');
-const dynamicConfig = require("../config/dynamic-config");
+const InfuraProvider = require('./ethereum-provider/infura-provider');
+const TransactionRepository = require('../data/repository/transaction-repository');
+const dynamicConfig = require('../config/dynamic-config');
 
 class TransactionMonitor {
     transactionFiltersMap;
@@ -19,16 +19,20 @@ class TransactionMonitor {
          * build a map of <key: string, value: Array<any>>, where:
          * key: is the property name
          * value: the filters by which we should filter on the property name
-         * */ 
+         * */
         const filtersMap = new Map();
-        newConfig.transactionFilters.forEach((f) => {
-            if (filtersMap.has(f.field)) { // if filter by the same property exists, add to map
-                const existing = filtersMap.get(f.field);
-                filtersMap.set(f.field, [...existing, f])
-            } else {
-                filtersMap.set(f.field, [f])
-            }
-        })
+        if (newConfig && newConfig.transactionFilters) {
+            newConfig.transactionFilters.forEach((f) => {
+                if (filtersMap.has(f.field)) { // if filter by the same property exists, add to map
+                    const existing = filtersMap.get(f.field);
+                    filtersMap.set(f.field, [...existing, f])
+                } else {
+                    filtersMap.set(f.field, [f])
+                }
+            })
+        } else {
+            console.log("[warning] Config is empty, do not expect any tracking in DB");
+        }
 
         this.transactionFiltersMap = filtersMap;
     }

@@ -1,5 +1,5 @@
-const BaseRepository = require("./base-repository");
-const Configuration = require("./models/configuration");
+const BaseRepository = require('./base-repository');
+const Configuration = require('../models/configuration')
 
 class ConfigurationRepository extends BaseRepository {
     constructor() {

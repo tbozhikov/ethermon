@@ -1,5 +1,5 @@
 const EventEmitter = require('events');
-const ConfigurationRepository = require("../data/configuration-repository");
+const ConfigurationRepository = require('../data/repository/configuration-repository');
 
 class DynamicConfig {
     activeConfigRecord;
@@ -36,7 +36,7 @@ class DynamicConfig {
         if (await this.configurationRepository.count() === 0) {
             configurationRecord = await this.configurationRepository.create({
                 appliedAt: Date.now(),
-                configJSON: JSON.stringify(this.getDefault()),
+                configJSON: JSON.stringify(this.getEmptyConfig()),
                 isActive: true
             });
         } else {
@@ -67,21 +67,7 @@ class DynamicConfig {
         this.eventEmitter.on("configChanged", callback);
     }
 
-    getDefault() {
-        return {
-            transactionFilters: [{
-                "field": "to",
-                "value": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72",
-                "criteria": "equals",
-                "matchCase": false
-            },
-            {
-                "field": "gas",
-                "value": "21000",
-                "criteria": "above"
-            }]
-        };
-    }
+    getEmptyConfig() { return {}; }
 }
 
 module.exports = new DynamicConfig(); // use this class as singleton object

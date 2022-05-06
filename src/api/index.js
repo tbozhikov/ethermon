@@ -1,17 +1,14 @@
-const express = require("express");
+const express = require('express');
+const initDatabase = require('../db/init');
+const ConfigurationRepository = require('../data/repository/configuration-repository');
+
+initDatabase();
+
 const app = express();
-const initDatabaseConnection = require("../db/init");
-const ConfigurationRepository = require('../data/configuration-repository');
-
-initDatabaseConnection();
-
 app.use(express.json());
+
 app.listen(3000, () => {
     console.log("API Server is running on port 3000");
-});
-
-app.get("/url", (req, res, next) => {
-    res.json(["Tony", "Lisa", "Michael", "Ginger", "Food"]);
 });
 
 // READ
