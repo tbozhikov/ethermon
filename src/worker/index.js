@@ -1,8 +1,11 @@
 // import TransactionChecker from "./transaction-checker";
 const TransactionChecker = require("./transaction-checker");
+const initDatabaseConnection = require("../db/init");
 
 console.log("Hello");
-
+initDatabaseConnection();
+// const dynamicConfig = require("../config/dynamic-config");
+// (async () => { await dynamicConfig.refreshActiveConfig(); })();
 // TODO
 // Load configuration
 // Start API

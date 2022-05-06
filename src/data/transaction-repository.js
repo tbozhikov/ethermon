@@ -8,39 +8,6 @@ class TransactionRepository extends BaseRepository{
 
         this.model = Transaction;
     }
-
-    async create(item) {
-        this.model.create(item);
-    }
-
-    async update(id, updatedItem) {
-        let item = await this.findOne(id);
-
-        item = {
-            ...item,
-            ...updatedItem
-        }
-
-        await item.save();
-    }
-
-    async delete(id) {
-        this.model.destroy({
-            where: {
-                id: id
-            }
-        });
-
-        this.model.delete()
-    }
-
-    async findOne(id) {
-        return await this.model.findOne({
-            where: {
-                id: id,
-            },
-        })
-    }
 }
 
 module.exports = TransactionRepository;

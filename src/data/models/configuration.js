@@ -1,9 +1,5 @@
-const { Model } = require('sequelize');
+const { Sequelize, Model, DataTypes } = require('sequelize');
 
-class Configuration extends Model {
-    // appliedAt;
-    // isActive;
-    // configJSON;
-}
+class Configuration extends Model { }
 
 module.exports = Configuration;

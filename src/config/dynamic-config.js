@@ -4,7 +4,7 @@ const Configuration = require("../data/models/configuration");
 const ConfigurationRepository = require("../data/configuration-repository");
 
 class DynamicConfig {
-    _activeConfigRecord;
+    activeConfigRecord;
     activeConfig;
     // transactionsFilter;
     // dbConfiguration;
@@ -45,7 +45,7 @@ class DynamicConfig {
 
     async refreshActiveConfig() {
         let activeConfigurationRecord = await this.configurationRepository.getActive();
-
+        console.log(`[DynamicConifg] got active: ${JSON.stringify(activeConfigurationRecord)}`);
         if (!activeConfigurationRecord) {
             activeConfigurationRecord = await this.initActiveConfig();
         }
@@ -55,21 +55,30 @@ class DynamicConfig {
 
         this.activeConfig = JSON.parse(activeConfigurationRecord.configJSON);
 
-        if (this._activeConfigRecord?.id !== activeConfigurationRecord.id) {
-            this._activeConfigRecord = activeConfigurationRecord;
+        if (!this.activeConfigRecord || this.activeConfigRecord.id !== activeConfigurationRecord.id) {
+            this.activeConfigRecord = activeConfigurationRecord;
+            console.log(`Emitting configChanged with args: ${JSON.stringify(this.activeConfig)}`)
             this.eventEmitter.emit("configChanged", this.activeConfig);
         }
     }
 
     configChanged(callback) {
-        this.eventEmitter.on("configChanged", callback(this.activeConfig));
+        this.eventEmitter.on("configChanged", callback);
     }
 
     getDefault() {
         return {
-            transactionsFilter: {
-                "to": "0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72"
+            transactionFilters: [{
+                "field": "to",
+                "value": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72",
+                "criteria": "equals",
+                "matchCase": false
             },
+            {
+                "field": "gas",
+                "value": "21000",
+                "criteria": "above"
+            }],
             dbConfiguration: {
                 "filename": "database.sqlite"
             }

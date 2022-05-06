@@ -5,6 +5,6 @@
         }
     },
     "db": {
-        "filename": "database.sqlite"
+        "path": "database.sqlite"
     }
 }

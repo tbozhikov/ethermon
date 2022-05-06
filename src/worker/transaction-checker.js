@@ -1,26 +1,71 @@
 const InfuraProvider = require("./ethereum-provider/infura-provider");
-
-const BINANCE_ADDR = "0xbe0eb53f46cd790cd13851d5eff43d12404d33e8";
-const ENS = "0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72" // https://ethplorer.io/address/0xc18360217d8f7ab5e7c516566761ea12ce7f9d72#chart=candlestick
+const dynamicConfig = require("../config/dynamic-config");
+const TransactionRepository = require('../data/transaction-repository');
 
 class TransactionChecker {
+    transactionFiltersMap;
+
     constructor(projectId) {
         this.provider = new InfuraProvider(projectId);
+        dynamicConfig.configChanged((newConfig) => { this.onConfigChanged(newConfig); });
+        this.transactionRepository = new TransactionRepository();
+        // dynamicConfig.refreshActiveConfig();
+    }
+
+    onConfigChanged(newConfig) {
+        console.log(`[Config change] New transaction filters: ${JSON.stringify(newConfig.transactionFilters, null, 2)}`);
+
+        const filtersMap = new Map();
+        newConfig.transactionFilters.forEach((f) => { filtersMap.set(f.field, f) })
+
+        this.transactionFiltersMap = filtersMap;
     }
 
     watchBlocks() {
         this.provider.watchBlocks((block) => {
             let transactions = block.transactions;
             console.log(`Found ${transactions.length} new transactions.`)
-            console.log(`${JSON.stringify(transactions, null, 2)}`)
 
-            for (let tx of transactions) {
-                if (tx.from.toLowerCase() === BINANCE_ADDR || tx.to.toLowerCase() === BINANCE_ADDR) {
-                    console.log(`[BINANCE] Transaction: ${tx.from} -> ${tx.to}`);
-                } else {
-                    console.log(`Transaction: ${tx.from} -> ${tx.to}`);
-                }
+            if (transactions.filter(tx => tx.gas > 21000)) {
+                console.log(`Found ${transactions.filter(tx => tx.gas > 21000).length} transactions with larger gas.`)
             }
+
+            const filtered = transactions.filter((tx) => {
+                let shouldFilterCurrent = false;
+
+                for (let txKey of Object.keys(tx)) {
+                    if (this.transactionFiltersMap.has(txKey)) {
+                        const filter = this.transactionFiltersMap.get(txKey);
+
+                        switch (filter.criteria) {
+                            case "equals":
+                                // assume string here, respect matchCase
+                                const txValue = filter.matchCase ? tx[txKey] : tx[txKey].toLowerCase();
+                                const filterValue = filter.matchCase ? filter.value : filter.value.toLowerCase();
+                                shouldFilterCurrent = filterValue === txValue;
+                                break;
+                            case "above":
+                                // assume number, do not respect matchCase
+                                shouldFilterCurrent = tx[txKey] > filter.value
+                                break;
+                            case "below":
+                                // assume number, do not respect matchCase
+                                shouldFilterCurrent = tx[txKey] < filter.value
+                                break;
+                        }
+                    }
+                    if (shouldFilterCurrent) {
+                        break;
+                    }
+                }
+
+                return shouldFilterCurrent;
+            });
+
+            console.log(`Adding ${filtered.length} transactions.`)
+            console.log(`Transactions: ${JSON.stringify(filtered)}`)
+
+            filtered.forEach(tx => this.transactionRepository.create({ ...tx, configurationId: dynamicConfig.activeConfigRecord.id }));
         });
     }
 }
